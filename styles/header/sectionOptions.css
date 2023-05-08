@@ -20,13 +20,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.section_options .section_image {
-  background: #DADADA;
-  width: 95%;
-  height: 40vh;
-  margin-top: 10%;
-  max-width: 600px;
-}
 .section_options .section_restaurant {
   margin-top: 8%;
   max-width: 600px;
@@ -39,4 +32,12 @@
   margin-top: 5%;
   cursor: pointer;
   text-align: center;
+}
+
+.section_image {
+  background: #DADADA;
+  width: 95%;
+  height: 40vh;
+  margin-top: 10%;
+  max-width: 600px;
 }/*# sourceMappingURL=sectionOptions.css.map */

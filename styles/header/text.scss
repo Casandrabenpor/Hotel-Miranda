@@ -128,11 +128,9 @@ h5 {
     font-weight: 400;
     font-size: 30px;
     line-height: 30px;
-    /* identical to box height, or 100% */
-
     letter-spacing: -0.9px;
-
     color: #FFFFFF;
+    padding-top: 8%;
 }
 
 .text-core-features__paragraph {
@@ -141,8 +139,28 @@ h5 {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
-
-
+    padding-top: 2%;
     color: #FFFFFF;
+}
+
+.text__counter-title {
+    font-family: Old Standard TT;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -1.2000000476837158px;
+    text-align: left;
+}
+.text__counter-number{
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    /* or 100% */
+    
+    letter-spacing: -1.8px;
+    
+    color: #222222;
+
 }

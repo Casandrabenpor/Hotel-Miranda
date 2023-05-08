@@ -25,14 +25,6 @@
 
     }
 
-    .section_image {
-        background: #DADADA;
-        width: 95%;
-        height: 40vh;
-        margin-top: 10%;
-        max-width: 600px;
-    }
-
     .section_restaurant {
         margin-top: 8%;
         max-width: 600px;
@@ -48,4 +40,11 @@
         text-align: center;
 
     }
+}
+.section_image {
+    background: #DADADA;
+    width: 95%;
+    height: 40vh;
+    margin-top: 10%;
+    max-width: 600px;
 }
