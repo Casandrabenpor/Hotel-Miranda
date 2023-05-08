@@ -1,0 +1,16 @@
+.section_features{
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    .core-features__section{
+        background: #292929;
+        width: 77%;
+        height: 40vh;
+        max-width: 600px;
+    }
+    .core-features_number{
+        margin-left: 50%;
+    }
+}

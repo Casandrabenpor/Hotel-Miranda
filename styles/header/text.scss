@@ -79,7 +79,7 @@ h5 {
     letter-spacing: 0px;
     text-align: left;
     margin-top: 2rem;
-   
+
 }
 
 .text_button {
@@ -91,4 +91,58 @@ h5 {
     text-align: left;
     color: #FFFFFF;
 
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text__features {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.text__title-features {
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 60px;
+    /* identical to box height, or 107% */
+
+    letter-spacing: -1.2px;
+    margin-top: 5%;
+    color: #FFFFFF;
+}
+
+.text-core-features__pretitle {
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    /* identical to box height, or 100% */
+
+    letter-spacing: -0.9px;
+
+    color: #FFFFFF;
+}
+
+.text-core-features__paragraph {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    color: #FFFFFF;
 }
