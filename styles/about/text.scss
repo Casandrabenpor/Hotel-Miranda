@@ -37,6 +37,11 @@ h5 {
     color: #BEAD8E;
 }
 
+.text-gray-color {
+    color: #777777;
+
+}
+
 .text_video {
     font-family: "Old Standard TT";
     font-size: 32px;
@@ -151,16 +156,98 @@ h5 {
     letter-spacing: -1.2000000476837158px;
     text-align: left;
 }
-.text__counter-number{
+
+.text__counter-number {
     font-family: 'Old Standard TT';
     font-style: normal;
     font-weight: 400;
     font-size: 60px;
     line-height: 60px;
-    /* or 100% */
-    
     letter-spacing: -1.8px;
-    
     color: #222222;
+
+}
+
+.text__footer-paragraph {
+    font-family: ' Archivo';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.text__options {
+    font-family: "Old Standard TT";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.text__footer-services {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.text__copyright {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: -0.48;
+    text-align: left;
+    margin-top: 5%;
+
+}
+
+// text room
+.text__room-title {
+    font-family: "Old Standard TT";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.7200000286102295px;
+   
+
+
+}
+
+.text__room-paragraph {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    margin-top: 2%;
+}
+
+.text__room-price {
+    font-family: 'Archivo';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    margin-top: 5%;
+
+
+}
+
+.text__room-booking {
+    font-family: 'Archivo';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+    color: #BDBDBD;
+    margin-top: 5%;
+
 
 }

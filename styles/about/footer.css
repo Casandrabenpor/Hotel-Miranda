@@ -1,0 +1,16 @@
+@charset "UTF-8";
+#options_footer {
+  background-image: url("../../assets/footer/Rectángulo.png");
+}
+
+#footer_services {
+  display: flex;
+  padding: 5%;
+}
+#footer_services ul {
+  list-style-type: none;
+}
+
+.footer__contact {
+  padding: 5%;
+}/*# sourceMappingURL=footer.css.map */
