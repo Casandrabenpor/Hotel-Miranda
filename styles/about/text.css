@@ -273,4 +273,21 @@ h5 {
   line-height: 33px;
   letter-spacing: 0px;
   text-align: right;
+}
+
+.text__golden-popular {
+  font-family: "Archivo";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 2.7999999523px;
+  padding: 5%;
+}
+
+.text__popular-title {
+  font-family: "Old Standard TT";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -0.8000000119px;
 }/*# sourceMappingURL=text.css.map */
