@@ -1,0 +1,26 @@
+.section__gallery-luxury{
+    margin:auto;
+    width: 90%;
+}
+.section__gallery-price {
+   position: absolute;
+   display: flex;
+   align-items: flex-end;
+   flex-direction: column;
+    background-color: rgba(17, 17, 17, 0.5);
+    top: 360px;
+    right: 20px;
+    gap: 1em;
+}
+//Popular rooms
+#bakground__popular{
+    background: #222222;
+    margin-top: 4%;
+}
+.card-white{
+    background-color: #FFFFFF;
+    margin-top: -14%;
+    padding: 16%;
+    width: 95%;
+    height: 40vh;
+}

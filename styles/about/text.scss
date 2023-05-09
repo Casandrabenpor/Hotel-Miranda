@@ -36,9 +36,16 @@ h5 {
 .text-gray {
     color: #BEAD8E;
 }
+.text-line{
+    text-decoration-line: line-through;
+}    
 
 .text-gray-color {
     color: #777777;
+
+}
+.text-pink{
+    color: #DE5777;
 
 }
 
@@ -215,9 +222,7 @@ h5 {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: -0.7200000286102295px;
-   
-
-
+    
 }
 
 .text__room-paragraph {
@@ -248,6 +253,40 @@ h5 {
     letter-spacing: 0px;
     color: #BDBDBD;
     margin-top: 5%;
+}
+
+//OFFERS
+.text__gallery-title {
+    font-family: " Old Standard TT";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -1.440000057220459px;
 
 
+}
+
+.text__gallery-paragraph {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    padding: 5%;
+}
+.text_gallery-price{
+    font-family: "Archivo";
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: right;
+}
+.text_gallery-price-night{
+    font-family: "Archivo";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0px;
+    text-align: right;
 }

@@ -1,0 +1,9 @@
+.section__text-button {
+  width: 216px;
+  height: 60px;
+  background: #BEAD8E;
+  box-shadow: 0px 14px 24px rgba(190, 173, 142, 0.36);
+  margin-top: 5%;
+  cursor: pointer;
+  text-align: center;
+}/*# sourceMappingURL=button.css.map */
