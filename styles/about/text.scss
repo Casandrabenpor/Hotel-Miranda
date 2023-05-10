@@ -62,7 +62,7 @@ h5 {
 
 }
 
-.text__restaurant {
+.text__small-section {
     font-family: 'Archivo';
     font-size: 14px;
     font-weight: 700;
@@ -74,7 +74,7 @@ h5 {
 
 }
 
-.text__restaurant-title {
+.text__big-section {
     font-family: "Old Standard TT";
     font-size: 40px;
     font-weight: 400;
@@ -85,7 +85,7 @@ h5 {
     margin-top: 2rem;
 }
 
-.text__restaurant-paragraph {
+.text__small-section-paragraph {
     font-family: 'Archivo';
     font-size: 14px;
     font-weight: 400;
@@ -310,4 +310,119 @@ h5 {
     font-weight: 400;
     line-height: 48px;
     letter-spacing: -0.800000011920929px;
+}
+
+//Contact
+.text__title-contact {
+    font-family: "Old Standard TT";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+
+
+}
+
+.text__date-contact {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+
+
+}
+
+//Rooms Details
+.text__number-room-details {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;
+
+}
+
+.text__small-bold {
+    font-family: 'Archivo';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.5400000214576721px;
+    margin-top: 10%;
+}
+
+.text__check {
+    font-family: 'Archivo';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.text__details-paragraph {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    margin-top: 10%;
+    max-width: 600px;
+}
+
+.text__title-amenieties {
+    font-family: "Old Standard TT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 10%;
+}
+
+.section__list-amenities {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+}
+.section__name-person{
+    font-family: "Old Standard TT";
+font-size: 30px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: -0.8999999761581421px;
+margin-top: 1.5rem;
+}
+.section__name-data{
+    font-family: 'Archivo';
+font-size: 14px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 2.799999952316284px;
+color: #BDAC8D;
+margin-top: 1.5rem;
+
+}
+.section__name-paragraph{
+    font-family: 'Archivo';
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: center;
+margin-top: 1.5rem;
+
+}
+.section__cancellation{
+    font-family: "Roboto";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+margin-top: 1.5rem;
+
 }

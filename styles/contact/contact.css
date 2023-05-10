@@ -1,9 +1,42 @@
+.section__contact {
+  width: 95%;
+  margin: auto;
+}
+.section__contact .section__contact-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 2.7rem;
+  margin-bottom: 24%;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+.section__contact .section__contact-number {
+  position: absolute;
+  z-index: -1;
+  top: 30px;
+  right: 40px;
+}
+.section__contact .section__contact-icon {
+  width: 50px;
+  height: 50px;
+}
+.section__contact .section__contact-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .section__enter-contact {
   margin-top: 5%;
   display: flex;
   flex-direction: row-reverse;
   background: #F8F8F8;
   padding: 1.5rem;
+  margin-right: 9%;
+  margin-left: 9%;
+  gap: 1rem;
 }
 .section__enter-contact input {
   background: #F8F8F8;

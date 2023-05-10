@@ -1,0 +1,63 @@
+.section__room{
+    width: 95%;
+    margin: auto;
+}
+.section__check {
+    input {
+        border-style: none;
+        color: #777777;
+        width: 80%;
+        height: 8vh;
+        display: flex;
+        justify-content: center;
+        margin-left: 5%;
+        font-family: 'Archivo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 15px;
+    }
+}
+.section__amenities{
+    margin: auto;
+    width: 95%;
+}
+.section__list-column {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 5%;
+    justify-content: space-around;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    li {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+}
+
+.section__room-person {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    align-items: center;
+
+    .section__room-photo {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background: #D5D5D5;
+        position: relative;
+    }
+
+    .section__room-check {
+        position: absolute;
+        right: 0;
+    }
+}
