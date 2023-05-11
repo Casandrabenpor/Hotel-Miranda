@@ -1,0 +1,76 @@
+.section__title-home {
+  background: #333333;
+}
+
+.section__calendar-home {
+  margin-top: 10%;
+  background: #222222;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+}
+.section__calendar-home input {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  border-bottom: 2px solid #BEAD8E;
+  color: #686868;
+  background-color: #222222;
+  margin-top: 1rem;
+  margin-left: 2%;
+}
+
+.section_image-home {
+  background: #DADADA;
+  width: 70%;
+  height: 40vh;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.section__about-cards {
+  margin-top: 15%;
+}
+
+.section__about-cards2 {
+  background-color: #222222;
+  text-align: center;
+  width: 70%;
+  height: 40vh;
+  margin: auto;
+}
+
+.section_image-slide {
+  background: #DADADA;
+  width: 118%;
+  height: 40vh;
+}
+
+.section__card-container {
+  background-color: #FFFFFF;
+  margin-top: -1rem;
+}
+
+.section__gallery-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.7rem;
+  position: relative;
+}
+.section__gallery-home .section_button-rooms-home {
+  display: flex;
+  flex-direction: row;
+  margin-top: -1.8rem;
+  justify-content: flex-end;
+  z-index: 1;
+  position: absolute;
+}
+
+.video__container {
+  background-color: #222222;
+}/*# sourceMappingURL=home.css.map */
