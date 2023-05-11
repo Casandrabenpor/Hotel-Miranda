@@ -25,6 +25,9 @@
     }
 }
 
+// .home__about-container{
+//     padding: 3%;
+// }
 .section_image-home {
     background: #DADADA;
     width: 70%;
@@ -33,42 +36,123 @@
     margin: auto;
     margin-top: 10%;
 }
-.section__about-cards{
+
+.section__about-cards {
     margin-top: 15%;
 }
-.section__about-cards2{
-background-color: #222222;
-text-align: center;
-width: 70%;
-height: 40vh;
-margin: auto;
+
+.section__about-cards2 {
+    background-color: #222222;
+    text-align: center;
+    width: 70%;
+    height: 40vh;
+    margin: auto;
 }
-.section_image-slide{
+
+.section_image-slide {
     background: #DADADA;
     width: 118%;
     height: 40vh;
 }
-.section__card-container{
+
+.section__card-container {
     background-color: #FFFFFF;
     margin-top: -1rem;
 }
 
-.section__gallery-home{
+.section__gallery-home {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 1.7rem;
-   position: relative;
-.section_button-rooms-home{
+    position: relative;
+
+    .section_button-rooms-home {
+        display: flex;
+        flex-direction: row;
+        margin-top: -1.8rem;
+        justify-content: flex-end;
+        z-index: 1;
+        position: absolute;
+    }
+}
+
+//video container
+.video__container {
+    background-color: #222222;
+    padding: 5%;
+}
+
+//Core features
+.position__number {
+    position: absolute;
+    z-index: 0;
+    right: 0;
+}
+
+.position__icon {
+    position: relative;
+    top: 57px;
+    left: 20%;
+}
+
+.position__pretitle {
+    margin-top: 9%;
+}
+
+.position__icon-second {
+    position: absolute;
+    right: 0;
+    top: 2rem;
+}
+
+// section menu
+.section__menu {
+    position: relative;
+    padding: 18rem 2rem 0 2rem;
+
+}
+
+.position__text-homeSecond {
+    margin-right: 80%;
+}
+
+//MENU SLIDER
+.menu__slider {
     display: flex;
     flex-direction: row;
-    margin-top: -1.8rem;
-    justify-content:flex-end ;
-    z-index: 1;
-   position: absolute;
+    gap: 2em;
+    align-items: center;
+    margin-top: 5%;
+
+    img {
+        height: 120px;
+        width: 120px;
+        object-fit: cover;
+
+    }
 }
+.menu__button{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: flex-end;
+    margin-bottom: 10%;
+    button{
+        border: none;
+    }
 }
-//video container
-.video__container{
-    background-color: #222222;
+.background__icons{
+    background-color:#222222;
+    margin-top: 15%;
+    padding: 1%;
+    margin-bottom: 10%;
+    .background__icons-position {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 15%;
+    }
 }

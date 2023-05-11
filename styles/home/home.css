@@ -73,4 +73,76 @@
 
 .video__container {
   background-color: #222222;
+  padding: 5%;
+}
+
+.position__number {
+  position: absolute;
+  z-index: 0;
+  right: 0;
+}
+
+.position__icon {
+  position: relative;
+  top: 57px;
+  left: 20%;
+}
+
+.position__pretitle {
+  margin-top: 9%;
+}
+
+.position__icon-second {
+  position: absolute;
+  right: 0;
+  top: 2rem;
+}
+
+.section__menu {
+  position: relative;
+  padding: 18rem 2rem 0 2rem;
+}
+
+.position__text-homeSecond {
+  margin-right: 80%;
+}
+
+.menu__slider {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  align-items: center;
+  margin-top: 5%;
+}
+.menu__slider img {
+  height: 120px;
+  width: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.menu__button {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  justify-content: flex-end;
+  margin-bottom: 10%;
+}
+.menu__button button {
+  border: none;
+}
+
+.background__icons {
+  background-color: #222222;
+  margin-top: 15%;
+  padding: 1%;
+  margin-bottom: 10%;
+}
+.background__icons .background__icons-position {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 15%;
 }/*# sourceMappingURL=home.css.map */

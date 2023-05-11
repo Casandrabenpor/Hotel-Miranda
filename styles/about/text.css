@@ -1,3 +1,7 @@
+.text__title {
+  padding: 4%;
+}
+
 .section__text-calendar {
   font-family: "Roboto";
   font-size: 16px;
@@ -79,6 +83,34 @@
   font-size: 32px;
   line-height: 43px;
   text-align: center;
+}
+
+.text__video-home {
+  font-family: "Archivo";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 2.7999999523px;
+}
+
+.text__video-titleHome {
+  font-family: "Old Standard TT";
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: -1.2000000477px;
+  text-align: left;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.text__video-paragraph {
+  font-family: "Archivo";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
 }
 
 h1 {
@@ -221,8 +253,8 @@ h5 {
   font-size: 30px;
   line-height: 30px;
   letter-spacing: -0.9px;
-  color: #FFFFFF;
   padding-top: 8%;
+  text-align: center;
 }
 
 .text-core-features__paragraph {
@@ -232,7 +264,6 @@ h5 {
   font-size: 14px;
   line-height: 24px;
   padding-top: 2%;
-  color: #FFFFFF;
 }
 
 .text__counter-title {
@@ -487,4 +518,45 @@ h5 {
   line-height: 24px;
   letter-spacing: 0px;
   margin-top: 1.5rem;
+}
+
+.menu__food-text {
+  font-family: "Old Standard TT";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.7200000286px;
+}
+
+.menu__food-data {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.background__number {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 136.4%;
+  text-align: center;
+}
+
+.background__data {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #999999;
+}
+
+.operator__small {
+  font-size: 2rem;
+  font-weight: 400;
 }/*# sourceMappingURL=text.css.map */
