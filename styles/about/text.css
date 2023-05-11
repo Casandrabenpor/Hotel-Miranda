@@ -1,5 +1,10 @@
 .text__title {
-  padding: 4%;
+  height: 100%;
+}
+
+.title__header {
+  top: 18%;
+  position: relative;
 }
 
 .section__text-calendar {
@@ -254,7 +259,6 @@ h5 {
   line-height: 30px;
   letter-spacing: -0.9px;
   padding-top: 8%;
-  text-align: center;
 }
 
 .text-core-features__paragraph {

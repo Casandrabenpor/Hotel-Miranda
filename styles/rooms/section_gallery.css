@@ -3,15 +3,13 @@
   flex-direction: column;
   align-items: center;
   padding: 1.7rem;
-  position: relative;
 }
 .section__gallery .section_button-rooms {
   display: flex;
   flex-direction: row;
-  margin-top: 15rem;
+  margin-top: -1.8rem;
   justify-content: flex-end;
   z-index: 1;
-  position: absolute;
 }
 .section__gallery .section__gallery-text {
   display: flex;

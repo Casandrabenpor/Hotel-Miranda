@@ -1,5 +1,5 @@
 // Variable seleccionando la clase de css
-const burger = document.querySelector('nav__burger');
+const burger = document.querySelector('.nav__burger');
 const nav = document.querySelector('.nav');
 
 // Definimos la función 

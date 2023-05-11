@@ -5,9 +5,5 @@
 }
 
 .section__cards-some {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   padding: 2rem;
-  gap: 2em;
 }/*# sourceMappingURL=section_cards.css.map */
