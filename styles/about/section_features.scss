@@ -1,18 +1,35 @@
-.section_features{
+.section_features {
     background-color: #222222;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 5%;
-    height: 62vh;
-    .core-features__section{
+    height: 108vh;
+
+    .core-features__section {
         background: #292929;
         width: 95%;
         height: 40vh;
         max-width: 600px;
         padding: 5%;
     }
-    .core-features_number{
+
+    .core-features_number {
         margin-left: 50%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .section_features {
+        .core-features__section {
+            width: 45%;
+            margin-right: 2%;
+            
+        }
+        .cards__features{
+            display: flex;
+            flex-direction: row;
+        }
     }
 }

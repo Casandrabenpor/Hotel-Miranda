@@ -10,6 +10,27 @@ header {
 
 }
 
+.nav__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+    gap: 13%;
+}
+
+.nav__container-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav__container-logo {
+    padding: 12px;
+    width: 35.96px;
+    height: 36px;
+    box-shadow: 0px 14px 24px rgba(139, 139, 139, 0.25);
+}
+
 .nav {
     display: flex;
     flex-direction: column;
@@ -70,4 +91,22 @@ header {
     display: flex;
     justify-content: flex-end;
     gap: 30%;
+    position: absolute;
+    right: 0;
+}
+//Desktop
+@media only screen and (min-width: 1000px) {
+    .nav-link {
+        display: none;
+        list-style: none;
+    }
+    .nav__burger{
+        display: none;
+    }
+    .nav{
+        
+        display: flex;
+        
+    }
+   
 }

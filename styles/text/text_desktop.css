@@ -1,0 +1,12 @@
+@media only screen and (min-width: 1000px) {
+  .title {
+    margin-top: 1%;
+  }
+  .title__header {
+    margin-left: 15%;
+  }
+  .text__counter-title {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}/*# sourceMappingURL=text_desktop.css.map */

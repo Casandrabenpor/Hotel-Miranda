@@ -25,9 +25,9 @@
     }
 }
 
-// .home__about-container{
-//     padding: 3%;
-// }
+.home__about-container{
+   margin-left: 5%;
+}
 .section_image-home {
     background: #DADADA;
     width: 70%;
@@ -47,6 +47,7 @@
     width: 70%;
     height: 40vh;
     margin: auto;
+    padding-top: 3rem;
 }
 
 .section_image-slide {
@@ -124,6 +125,7 @@
     gap: 2em;
     align-items: center;
     margin-top: 5%;
+    margin-left: 1.5rem;
 
     img {
         height: 120px;

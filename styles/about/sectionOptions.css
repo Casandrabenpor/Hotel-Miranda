@@ -20,9 +20,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.section_options .card__none {
+  display: none;
+}
 .section_options .section_restaurant {
   margin-top: 8%;
-  max-width: 600px;
 }
 
 .section_image {
@@ -32,4 +34,23 @@
   max-width: 600px;
   position: relative;
   margin: auto;
+}
+
+@media only screen and (min-width: 1000px) {
+  .section_options .section_cards {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  .section_options .card__none {
+    display: block;
+  }
+  .restaurant-section {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+  }
+  .section__text-button {
+    margin-left: 0%;
+  }
 }/*# sourceMappingURL=sectionOptions.css.map */

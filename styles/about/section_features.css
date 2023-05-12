@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   padding: 5%;
-  height: 62vh;
+  height: 108vh;
 }
 .section_features .core-features__section {
   background: #292929;
@@ -15,4 +15,15 @@
 }
 .section_features .core-features_number {
   margin-left: 50%;
+}
+
+@media only screen and (min-width: 1000px) {
+  .section_features .core-features__section {
+    width: 45%;
+    margin-right: 2%;
+  }
+  .section_features .cards__features {
+    display: flex;
+    flex-direction: row;
+  }
 }/*# sourceMappingURL=section_features.css.map */

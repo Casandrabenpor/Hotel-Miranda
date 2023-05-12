@@ -1,5 +1,6 @@
 .text__title {
   height: 100%;
+  position: relative;
 }
 
 .title__header {
@@ -33,7 +34,6 @@
   line-height: 60px;
   letter-spacing: -1.2000000477px;
   margin-bottom: 5%;
-  text-align: center;
 }
 
 .paragraph__home {
@@ -305,6 +305,7 @@ h5 {
   line-height: 24px;
   letter-spacing: 0px;
   text-align: left;
+  margin-top: 5%;
 }
 
 .text__footer-services {
@@ -377,7 +378,8 @@ h5 {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0px;
-  padding: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .text_gallery-price {
