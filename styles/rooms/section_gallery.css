@@ -19,4 +19,15 @@
 }
 .section__gallery .section__gallery-pagination {
   margin-top: 4rem;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1000px) {
+  #section__gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
 }/*# sourceMappingURL=section_gallery.css.map */
