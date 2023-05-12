@@ -20,6 +20,7 @@
 .section__gallery .section__gallery-pagination {
   margin-top: 4rem;
   text-align: center;
+  align-items: center;
 }
 
 @media only screen and (min-width: 1000px) {

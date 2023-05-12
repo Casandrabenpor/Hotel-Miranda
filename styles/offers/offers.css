@@ -1,6 +1,10 @@
 .section__gallery-luxury {
   margin-left: 5%;
   width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  align-items: center;
 }
 
 .section__gallery-price {
@@ -18,7 +22,6 @@
   background: #DADADA;
   width: 95%;
   height: 100%;
-  max-width: 600px;
   margin: auto;
 }
 
@@ -41,4 +44,38 @@
   padding: 16%;
   width: 95%;
   height: 40vh;
+}
+
+@media only screen and (min-width: 1000px) {
+  .section__gallery-luxury {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    gap: 3em;
+    align-items: center;
+    position: relative;
+    top: -4rem;
+    padding: 3em;
+  }
+  .section__gallery-price {
+    display: block;
+    background-color: white;
+    position: absolute;
+    bottom: 13em;
+  }
+  .section__text-button-offers {
+    margin-top: 0%;
+    margin-bottom: 5%;
+  }
+  .section__gallery-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .section__gallery {
+    padding: 5.7rem;
+  }
+  .card-white {
+    height: 30vh;
+  }
 }/*# sourceMappingURL=offers.css.map */

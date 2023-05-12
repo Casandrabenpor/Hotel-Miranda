@@ -1,28 +1,34 @@
-.section__gallery-luxury{
+.section__gallery-luxury {
     margin-left: 5%;
     width: 90%;
+    display: flex;
+    flex-direction: column;
+
+    gap: 3em;
+    align-items: center;
+
 }
+
 .section__gallery-price {
-   position: absolute;
-   display: flex;
-   align-items: flex-end;
-   flex-direction: column;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
     background-color: rgba(17, 17, 17, 0.5);
     gap: 1em;
     bottom: 29%;
     left: 56%;
 }
-.section_image-offers{
+
+.section_image-offers {
     background: #DADADA;
     width: 95%;
-   
     height: 100%;
-    max-width: 600px;
-    
-
+    // max-width: 600px;
     margin: auto;
 }
-.section__gallery-offers{
+
+.section__gallery-offers {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,11 +37,12 @@
 }
 
 //Popular rooms
-#bakground__popular{
+#bakground__popular {
     background: #222222;
     margin-top: 4%;
 }
-.card-white{
+
+.card-white {
     background-color: #FFFFFF;
     margin-top: -14%;
     padding: 16%;
@@ -43,3 +50,41 @@
     height: 40vh;
 }
 
+@media only screen and (min-width: 1000px) {
+    .section__gallery-luxury {
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        width: 85%;
+        gap: 3em;
+        align-items: center;
+        position: relative;
+        top: -4rem;
+        padding: 3em;
+    }
+
+    .section__gallery-price {
+        display: block;
+        background-color: #FFFF;
+        position: absolute;
+        bottom: 13em;
+    }
+
+    .section__text-button-offers {
+        margin-top: 0%;
+        margin-bottom: 5%;
+    }
+    .section__gallery-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .section__gallery{
+        padding: 5.7rem;
+        
+    }
+    .card-white {
+        height: 30vh;
+    }
+    
+
+}

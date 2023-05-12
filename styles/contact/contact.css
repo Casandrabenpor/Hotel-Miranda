@@ -1,6 +1,8 @@
 .section__contact {
   width: 95%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 .section__contact .section__contact-container {
   position: relative;
@@ -42,4 +44,11 @@
   background: #F8F8F8;
   border: none;
   width: 100%;
+}
+
+@media only screen and (min-width: 1000px) {
+  .section__contact {
+    display: flex;
+    flex-direction: row;
+  }
 }/*# sourceMappingURL=contact.css.map */
