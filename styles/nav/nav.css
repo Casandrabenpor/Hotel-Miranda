@@ -91,13 +91,17 @@ header {
 
 @media only screen and (min-width: 1000px) {
   .nav-link {
-    display: none;
     list-style: none;
+    z-index: 1;
   }
   .nav__burger {
     display: none;
   }
   .nav {
+    left: 0px;
     display: flex;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 }/*# sourceMappingURL=nav.css.map */

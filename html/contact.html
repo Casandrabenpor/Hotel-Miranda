@@ -12,27 +12,29 @@
 <body>
     <!-- HEADER -->
     <header>
-        <div class="nav__container-menu">
-            <button class="nav__burger"></button>
-            <a href="./index.html">
-                <div class="nav__logo">
-                    <div class="nav__container-logo">
-                        <img src="../assets/nav/logo.png" alt="logo" />
+        <div>
+            <div class="nav__container-menu">
+                <button class="nav__burger"></button>
+                <a href="./index.html">
+                    <div class="nav__logo">
+                        <div class="nav__container-logo">
+                            <img src="../assets/nav/logo.png" alt="logo" />
+                        </div>
+                        <img src="../assets/nav/Hotel Miranda.png" alt="Hote Miranda" />
                     </div>
-                    <img src="../assets/nav/Hotel Miranda.png" alt="Hote Miranda" />
-                </div>
-            </a>
+                </a>
 
-        </div>
-        <ul class="nav">
-            <li class="nav-link"><a href="./about.html">About us</a></li>
-            <li class="nav-link"><a href="./rooms.html">Rooms</a></li>
-            <li class="nav-link"><a href="./offers.html">Offers</a></li>
-            <li class="nav-link"><a href="./contact.html">Contact</a></li>
-        </ul>
-        <div class="nav__icons">
-            <img src="../assets/nav/human.png" alt="human icon" />
-            <img src="../assets/nav/search.png" alt="search" />
+            </div>
+            <ul class="nav">
+                <li class="nav-link"><a href="./about.html">About us</a></li>
+                <li class="nav-link"><a href="./rooms.html">Rooms</a></li>
+                <li class="nav-link"><a href="./offers.html">Offers</a></li>
+                <li class="nav-link"><a href="./contact.html">Contact</a></li>
+            </ul>
+            <div class="nav__icons">
+                <img src="../assets/nav/human.png" alt="human icon" />
+                <img src="../assets/nav/search.png" alt="search" />
+            </div>
         </div>
     </header>
     <!-- SECTION TITLE -->
@@ -81,41 +83,49 @@
                 </p>
             </div>
         </div>
-    
+
     </section>
     <div class="section_image"> </div>
     <!-- SECTION ENTER CONTACT -->
     <section>
-        <div>
+        <div id="contact__form">
+
+            <div class="contact__form-container">
+                <div class="section__enter-contact ">
+                    <img src="../assets/section-contact/account.png" alt="acount" />
+                    <input type="text" placeholder="Your full name">
+                </div>
+            </div>
+            <div class="contact__form-container">
+                <div class="section__enter-contact ">
+                    <img src="../assets/section-contact/email.png" alt="acount" />
+                    <input type="text" placeholder="Enter email address" />
+                </div>
+            </div>
+            <div class="contact__form-container">
+                <div class="section__enter-contact ">
+                    <img src="../assets/section-contact/phone.png" alt="acount" />
+                    <input type="text" placeholder="Add phone number" />
+                </div>
+            </div>
+            <div class="contact__form-container">
+                <div class="section__enter-contact ">
+                    <img src="../assets/section-contact/subject.png" alt="acount" />
+                    <input type="text" placeholder="Enter subject" />
+                </div>
+            </div>
+        </div>
         <div class="section__enter-contact ">
-            <input type="text" placeholder="Your full name">
-            <img src="../assets/section-contact/account.png" alt="acount" />
+            <!-- <img src="../assets/section-contact/pen.png" alt="acount" /> -->
+            <textarea placeholder="Enter message" rows="4" cols="50"></textarea>
         </div>
-        <div class="section__enter-contact">
-            <input type="text" placeholder="Add phone number" />
-            <img src="../assets/section-contact/phone.png" alt="acount" />
-        </div>
-        </div>
-        <div>
-        <div class="section__enter-contact">
-            <input type="text" placeholder="Enter email address" />
-            <img src="../assets/section-contact/email.png" alt="acount" />
-        </div>
-        <div class="section__enter-contact">
-            <input type="text" placeholder="Enter subject" />
-            <img src="../assets/section-contact/subject.png" alt="acount" />
-        </div>
-        </div>
-        <div class="section__enter-contact">
-            <input type="text" placeholder="Enter message" />
-            <img src="../assets/section-contact/pen.png" alt="acount" />
-        </div>
+
 
         <button type="button" class="section__text-button text_button text-center button__center">SEND</button>
 
     </section>
-     <!-- FOOTER -->
-     <footer>
+    <!-- FOOTER -->
+    <footer>
         <div id="options_footer">
             <div class="options__footer">
                 <img src="../assets/footer/Logo footer.png" alt="hotel Miranda" />

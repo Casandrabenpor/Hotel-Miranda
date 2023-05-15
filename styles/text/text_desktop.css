@@ -2,11 +2,24 @@
   .title {
     margin-top: 1%;
   }
+  .subtitile-home {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+  }
   .title__header {
     margin-left: 15%;
   }
   .text__counter-title {
     margin-top: 5%;
     margin-bottom: 5%;
+  }
+  .big__title-home {
+    text-align: center;
+  }
+  .big__title-home-menu {
+    margin-left: 9%;
   }
 }/*# sourceMappingURL=text_desktop.css.map */

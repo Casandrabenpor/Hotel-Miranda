@@ -1,12 +1,14 @@
 //HOME
-.text__title{
+.text__title {
     height: 100%;
     position: relative;
 }
-.title__header{
+
+.title__header {
     top: 18%;
     position: relative;
 }
+
 .section__text-calendar {
     font-family: "Roboto";
     font-size: 16px;
@@ -33,7 +35,15 @@
     line-height: 60px;
     letter-spacing: -1.2000000476837158px;
     margin-bottom: 5%;
-    
+
+}
+
+.big__title-home-menu {
+    font-family: "Old Standard TT";
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -1.2000000476837158px;
 }
 
 .paragraph__home {
@@ -275,7 +285,7 @@ h5 {
     line-height: 30px;
     letter-spacing: -0.9px;
     padding-top: 8%;
-    
+
 }
 
 .text-core-features__paragraph {
@@ -602,7 +612,8 @@ h5 {
     text-align: center;
     color: #999999;
 }
-.operator__small{
+
+.operator__small {
     font-size: 2rem;
     font-weight: 400;
 }

@@ -4,6 +4,10 @@
   align-items: center;
   padding: 1.7rem;
 }
+.section__gallery .section_image {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .section__gallery .section_button-rooms {
   display: flex;
   flex-direction: row;

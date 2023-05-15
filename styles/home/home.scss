@@ -1,5 +1,21 @@
 .section__title-home {
-    background: #333333;
+    // background: #333333;
+    background-image: url(../../assets/hotel/restaurant.jpg);
+}
+
+.subtitle-home {
+    display: none;
+
+
+
+}
+
+.button-home {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    margin-left: 19%;
+    margin-top: -2%;
 }
 
 .section__calendar-home {
@@ -25,9 +41,10 @@
     }
 }
 
-.home__about-container{
-   margin-left: 5%;
+.home__about-container {
+    margin-left: 5%;
 }
+
 .section_image-home {
     background: #DADADA;
     width: 70%;
@@ -84,17 +101,22 @@
     padding: 5%;
 }
 
-//Core features
-.position__number {
-    position: absolute;
-    z-index: 0;
-    right: 0;
+.video__text {
+    display: flex;
+    flex-direction: column;
 }
+
+//Core features
+// .position__number {
+//     position: absolute;
+//     z-index: 0;
+//     right: 0;
+// }
 
 .position__icon {
     position: relative;
-    top: 57px;
-    left: 20%;
+    top: 4%;
+    right: 42%;
 }
 
 .position__pretitle {
@@ -103,7 +125,9 @@
 
 .position__icon-second {
     position: absolute;
-    right: 0;
+    right: -2.5rem;
+    width: 30%;
+    height: 20vh;
     top: 2rem;
 }
 
@@ -119,6 +143,11 @@
 }
 
 //MENU SLIDER
+.menu__grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 9%;
+}
 .menu__slider {
     display: flex;
     flex-direction: row;
@@ -134,27 +163,158 @@
 
     }
 }
-.menu__button{
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+.menu__button {
     display: flex;
     flex-direction: row;
     gap: 1em;
     justify-content: flex-end;
     margin-bottom: 10%;
-    button{
+
+    button {
         border: none;
     }
 }
-.background__icons{
-    background-color:#222222;
+
+.background__icons {
+    background-color: #222222;
     margin-top: 15%;
     padding: 1%;
     margin-bottom: 10%;
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+    }
+
     .background__icons-position {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin-top: 15%;
+
     }
+}
+
+@media only screen and (min-width: 1000px) {
+    .title-index {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        margin-left: 18%;
+    }
+
+    .section__calendar-home {
+        display: flex;
+        flex-direction: row;
+        height: 20vh;
+        text-align: left;
+        align-items: center;
+        gap: 5em;
+        justify-content: center;
+    }
+
+    input {
+        width: 158%;
+    }
+
+    .section__calendar-date {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .subtitle-home {
+        background-color: #222222;
+        display: inline-block;
+        height: 6em;
+        width: 100%;
+        padding: 0.5rem 0 0 15%;
+
+    }
+
+    .about__container-cards {
+        width: 17%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .section__about-cards {
+        text-align: center;
+
+    }
+
+    .about__container-cardsSecond {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section__about-cards2 {
+        width: 50%;
+    }
+
+    .section_image-slide {
+        width: 50%;
+        height: 30vh;
+        object-fit: cover;
+    }
+
+    .text__video-titleHome {
+        width: 46%;
+    }
+
+    .text__video-paragraph {
+        width: 42%;
+    }
+
+    //video container
+    .video__container {
+        background: linear-gradient(90deg, #222222 70%, #BEAD8E 60%);
+    }
+
+    .video__container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    //Features
+    .section__gallery-features {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
+
+    .background__icons {
+        height: 40vh;
+        width: 70%;
+        margin: 12rem;
+
+        .icons {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    }
+    .swiper-slide{
+        flex-shrink: unset;
+    }
+
+    .background__icons-position {
+        margin-top: 1%;
+    }
+
+    .position__icon-second {
+        left: 0;
+        width: 12%;
+        height: 20vh;
+
+    }
+
 }
