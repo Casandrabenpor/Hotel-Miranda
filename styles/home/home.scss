@@ -1,6 +1,7 @@
 .section__title-home {
     // background: #333333;
-    background-image: url(../../assets/hotel/restaurant.jpg);
+    background-image: url(../../assets/hotel/hotel.jpg);
+    
 }
 
 .subtitle-home {
@@ -106,12 +107,6 @@
     flex-direction: column;
 }
 
-//Core features
-// .position__number {
-//     position: absolute;
-//     z-index: 0;
-//     right: 0;
-// }
 
 .position__icon {
     position: relative;
@@ -200,6 +195,10 @@
 
     }
 }
+.gallery-home{
+    display: flex;
+    flex-direction: column;
+}
 
 @media only screen and (min-width: 1000px) {
     .title-index {
@@ -253,6 +252,7 @@
     .about__container-cardsSecond {
         display: flex;
         flex-direction: column;
+      
     }
 
     .section__about-cards2 {
@@ -271,6 +271,22 @@
 
     .text__video-paragraph {
         width: 42%;
+    }
+    //cards text
+    .home__cards-txt{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 14rem;
+    }
+    .about__grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2em;
+    }
+    .gallery-home{
+        display: flex;
+        flex-direction: row;
     }
 
     //video container

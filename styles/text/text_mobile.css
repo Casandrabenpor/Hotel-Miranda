@@ -371,6 +371,10 @@ h5 {
   color: #BDBDBD;
   margin-top: 5%;
 }
+.text__room-booking a {
+  color: #BDBDBD;
+  border-bottom: none;
+}
 
 .text__gallery-title {
   font-family: " Old Standard TT";

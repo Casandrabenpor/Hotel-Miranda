@@ -1,5 +1,5 @@
 .section__title-home {
-  background-image: url(../../assets/hotel/restaurant.jpg);
+  background-image: url(../../assets/hotel/hotel.jpg);
 }
 
 .subtitle-home {
@@ -181,6 +181,11 @@
   text-align: center;
 }
 
+.gallery-home {
+  display: flex;
+  flex-direction: column;
+}
+
 @media only screen and (min-width: 1000px) {
   .title-index {
     display: flex;
@@ -238,6 +243,21 @@
   }
   .text__video-paragraph {
     width: 42%;
+  }
+  .home__cards-txt {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 14rem;
+  }
+  .about__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+  }
+  .gallery-home {
+    display: flex;
+    flex-direction: row;
   }
   .video__container {
     background: linear-gradient(90deg, #222222 70%, #BEAD8E 60%);
