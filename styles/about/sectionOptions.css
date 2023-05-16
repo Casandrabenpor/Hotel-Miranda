@@ -4,13 +4,6 @@
   align-items: center;
   padding: 1.7rem;
 }
-.section_options .section_video {
-  background: #DADADA;
-  width: 95%;
-  height: 40vh;
-  margin-top: 15%;
-  max-width: 600px;
-}
 .section_options .section_text {
   margin-top: 5%;
   max-width: 500px;

@@ -1,8 +1,5 @@
 .section_features {
     background-color: #222222;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 5%;
     height: 108vh;
 
@@ -22,14 +19,20 @@
 @media only screen and (min-width: 1000px) {
 
     .section_features {
+        height: 128vh;
         .core-features__section {
-            width: 45%;
+            
             margin-right: 2%;
             
         }
         .cards__features{
-            display: flex;
-            flex-direction: row;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+        }
+        .swiper-button-next,
+        .swiper-button-prev{
+            visibility: hidden;
         }
     }
 }

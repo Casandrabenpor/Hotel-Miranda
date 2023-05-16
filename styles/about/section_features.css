@@ -1,8 +1,5 @@
 .section_features {
   background-color: #222222;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 5%;
   height: 108vh;
 }
@@ -18,12 +15,19 @@
 }
 
 @media only screen and (min-width: 1000px) {
+  .section_features {
+    height: 128vh;
+  }
   .section_features .core-features__section {
-    width: 45%;
     margin-right: 2%;
   }
   .section_features .cards__features {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  .section_features .swiper-button-next,
+  .section_features .swiper-button-prev {
+    visibility: hidden;
   }
 }/*# sourceMappingURL=section_features.css.map */

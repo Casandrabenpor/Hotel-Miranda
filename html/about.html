@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="../styles/styles.css" />
     <script src="https://kit.fontawesome.com/fef5116784.js" crossorigin="anonymous"></script>
     <title>About us</title>
@@ -26,7 +27,7 @@
 
         </div>
         <ul class="nav">
-            <li class="nav-link"><a href="./about.html">About us</a></li>
+            <li class="nav-link"><a href="./about.html">About Us</a></li>
             <li class="nav-link"><a href="./rooms.html">Rooms</a></li>
             <li class="nav-link"><a href="./offers.html">Offers</a></li>
             <li class="nav-link"><a href="./contact.html">Contact</a></li>
@@ -55,7 +56,13 @@
     <!-- SECTION OPTIONS -->
     <section>
         <div class="section_options">
-            <div class="section_video"></div>
+            <div>
+                <iframe width="560" height="315" class="section_video"
+                    src="https://www.youtube.com/embed/Bu3Doe45lcU?start=25&end=75" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
             <h4 class="section_text text_video">Hello. Our hotel has been present for over 20 years. We make the best
                 for all our customers.</h4>
             <div class="section_cards">
@@ -66,9 +73,9 @@
                 <img src="../assets/section/Luxury room.png" alt="card luxury room" />
             </div>
             <div class="restaurant-section">
-                <div class="section_image">
-                    <!-- <img src="../assets/hotel/restaurant.jpg" class="image_restaurant" alt="restaurant"/> -->
-                 </div>
+                <!-- <div class=""> -->
+                <img src="../assets/hotel/burguer.jpg" class="section_image image_restaurant" alt="restaurant" />
+                <!-- </div> -->
                 <div class="section_restaurant">
                     <p class="section__text-restaurant text__small-section">RESTAURANT</p>
                     <h3 class="section__text-title text__big-section">Get Restaurant Facilities & Many Other More</h3>
@@ -87,73 +94,74 @@
         <div class="section_features">
             <h5 class="text__features text-center">FACILITIES</h5>
             <h2 class="text__title-features text-center">Core Features</h2>
-            <div class="cards__features">
-                <div class="core-features__section">
-                    <img src="../assets/section/01.png" class="core-features_number" alt="number" />
-                    <div class="core-features__section-icon">
-                        <img src="../assets/section/stars.png" alt="star" />
-                        <h4 class="text-core-features__pretitle  text-white">Have High Rating</h4>
-                        <p class="text-core-features__paragraph text-white">Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+            <div class="swiper swiper-section">
+                <div class="swiper-wrapper cards__features">
+                    <div class="swiper-slide core-features__section">
+                        <img src="../assets/section/01.png" class="core-features_number" alt="number" />
+                        <div class="core-features__section-icon">
+                            <img src="../assets/section/stars.png" alt="star" />
+                            <h4 class="text-core-features__pretitle  text-white">Have High Rating</h4>
+                            <p class="text-core-features__paragraph text-white">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide  core-features__section">
+                        <img src="../assets/section/02.png" class="core-features_number" alt="number" />
+                        <div class="core-features__section-icon">
+                            <img src="../assets/section/bruj.png" alt="bruj" />
+                            <h4 class="text-core-features__pretitle  text-white">Have High Rating</h4>
+                            <p class="text-core-features__paragraph text-white">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide  core-features__section">
+                        <img src="../assets/section/03.png" class="core-features_number" alt="number" />
+                        <div class="core-features__section-icon">
+                            <img src="../assets/section/map.png" alt="map" />
+                            <h4 class="text-core-features__pretitle  text-white">Have High Rating</h4>
+                            <p class="text-core-features__paragraph text-white">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide  core-features__section">
+                        <img src="../assets/section/04.png" class="core-features_number" alt="number" />
+                        <div class="core-features__section-icon">
+                            <img src="../assets/section/clock.png" alt="clock" />
+                            <h4 class="text-core-features__pretitle  text-white">Have High Rating</h4>
+                            <p class="text-core-features__paragraph text-white">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide core-features__section">
+                        <img src="../assets/section/05.png" class="core-features_number" alt="number" />
+                        <div class="core-features__section-icon">
+                            <img src="../assets/section/card.png" alt="card" />
+                            <h4 class="text-core-features__pretitle  text-white">Have High Rating</h4>
+                            <p class="text-core-features__paragraph text-white">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide core-features__section">
+                        <img src="../assets/section/06.png" class="core-features_number" alt="number" />
+                        <div class="core-features__section-icon">
+                            <img src="../assets/section/Group (3).png" alt="offer" />
+                            <h4 class="text-core-features__pretitle  text-white">Have High Rating</h4>
+                            <p class="text-core-features__paragraph text-white">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                        </div>
                     </div>
                 </div>
-                <div class="core-features__section">
-                    <img src="../assets/section/02.png" class="core-features_number" alt="number" />
-                    <div class="core-features__section-icon">
-                        <img src="../assets/section/bruj.png" alt="bruj" />
-                        <h4 class="text-core-features__pretitle  text-white">Have High Rating</h4>
-                        <p class="text-core-features__paragraph text-white">Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
-                    </div>
-                </div>
-                <!-- <div class="core-features__section">
-                    <img src="../assets/section/03.png" class="core-features_number" alt="number" />
-                    <div class="core-features__section-icon">
-                        <img src="../assets/section/map.png" alt="map" />
-                        <h4 class="text-core-features__pretitle  text-white">Have High Rating</h4>
-                        <p class="text-core-features__paragraph text-white">Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
-                    </div>
-                </div>
-            </div> -->
-                <!-- <div class="cards__features">
-                <div class="core-features__section">
-                    <img src="../assets/section/04.png" class="core-features_number" alt="number" />
-                    <div class="core-features__section-icon">
-                        <img src="../assets/section/clock.png" alt="clock" />
-                        <h4 class="text-core-features__pretitle  text-white">Have High Rating</h4>
-                        <p class="text-core-features__paragraph text-white">Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
-                    </div>
-                </div>
-                <div class="core-features__section">
-                    <img src="../assets/section/05.png" class="core-features_number" alt="number" />
-                    <div class="core-features__section-icon">
-                        <img src="../assets/section/card.png" alt="card" />
-                        <h4 class="text-core-features__pretitle  text-white">Have High Rating</h4>
-                        <p class="text-core-features__paragraph text-white">Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
-                    </div>
-                </div>
-                <div class="core-features__section">
-                    <img src="../assets/section/06.png" class="core-features_number" alt="number" />
-                    <div class="core-features__section-icon">
-                        <img src="../assets/section/Group (3).png" alt="offer" />
-                        <h4 class="text-core-features__pretitle  text-white">Have High Rating</h4>
-                        <p class="text-core-features__paragraph text-white">Lorem ipsum dolor sit amet, consectetur
-                            adipisicing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
-                    </div>
-                </div>
-            </div> -->
-
-
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
+        </div>
 
 
     </section>
@@ -179,7 +187,17 @@
                     <img src="../assets/section/Vector.png" alt="arrow" />
                 </div>
             </div>
-            <div class="section_image"> </div>
+            <div class="swiper-hotel">
+                <div class="swiper-wrapper section_image-flex">
+                    <div class="swiper-slide">
+                        <img src="../assets/hotel/hotel1.jpg" class="section_image" alt="hotel" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="../assets/hotel/hotel.jpg" class="section_image" alt="hotel" />
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
     </section>
     <!-- FOOTER -->
@@ -231,8 +249,9 @@
     </footer>
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="../scripts/burger-nav.js"></script>
+    <script src="../scripts/slide.js"></script>
 </body>
 
 </html>

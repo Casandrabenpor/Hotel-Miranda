@@ -2,6 +2,8 @@ let init = false;
 let swiper = undefined;
 let swiperFeatures = undefined;
 let swiperGallery = undefined;
+let swiperSection = undefined;
+let swiperHotel = undefined;
 
 function swiperCard(){
   if(window.innerWidth < 1000 && !init){
@@ -30,8 +32,36 @@ function swiperCard(){
         clickable: true,
       },
     });
-    swiperFeatures = new Swiper(".swiper-galleryHotel",{
+    swiperGallery = new Swiper(".swiper-galleryHotel",{
       spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+    swiperSection = new Swiper(".swiper-section",{
+      spaceBetween: 30,
+      centeredSlides: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      },
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+    swiperHotel = new Swiper(".swiper-hotel",{
+      spaceBetween: 60,
       centeredSlides: true,
       autoplay: {
         delay: 3000,
@@ -48,6 +78,8 @@ function swiperCard(){
     swiper.destroy();
     swiperFeatures.destroy();
     swiperGallery.destroy();
+    swiperSection.destroy();
+    swiperHotel.destroy();
     init = false;
   }
 }

@@ -25,4 +25,9 @@
     justify-content: space-around;
     align-items: center;
   }
+  .section_image-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+  }
 }

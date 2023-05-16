@@ -1,7 +1,6 @@
 @media only screen and (min-width: 1000px) {
   .image_restaurant {
-    width: 95%;
-    height: 40vh;
-    max-width: 600px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }/*# sourceMappingURL=image.css.map */

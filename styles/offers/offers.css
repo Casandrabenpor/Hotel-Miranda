@@ -51,12 +51,23 @@
     background-color: #FFFFFF;
     display: flex;
     flex-direction: row;
-    width: 85%;
+    width: 50%;
     gap: 3em;
     align-items: center;
     position: relative;
     top: -4rem;
     padding: 3em;
+    border-top: 6px solid #BEAD8E;
+    margin-left: 20%;
+  }
+  .section__gallery-offers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.7rem;
+    height: 60vh;
+    width: 60%;
+    margin-left: 15%;
   }
   .section__gallery-price {
     display: block;
