@@ -35,14 +35,18 @@ function swiperCard(){
     swiperGallery = new Swiper(".swiper-galleryHotel",{
       spaceBetween: 30,
       centeredSlides: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      },
       autoplay: {
         delay: 3000,
         disableOnInteraction: false,
       },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
+      // pagination: {
+      //   el: ".swiper-pagination",
+      //   clickable: true,
+      // },
     });
     swiperSection = new Swiper(".swiper-section",{
       spaceBetween: 30,

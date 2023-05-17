@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .section__title-home {
   background-image: url(../../assets/hotel/hotel.jpg);
 }
@@ -186,6 +187,28 @@
   flex-direction: column;
 }
 
+.rotate-center {
+  /* Estilos iniciales sin animación */
+  transform: rotate(0);
+  opacity: 1;
+  /* Aplica la animación al pasar el mouse */
+  transition: transform 0.6s ease-out;
+}
+
+.rotate-center:hover {
+  /* Establece los estilos de animación al pasar el mouse */
+  animation: rotate-center-animation 0.8s infinite;
+}
+
+@keyframes rotate-center-animation {
+  /* Definición de la animación */
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 @media only screen and (min-width: 1000px) {
   .title-index {
     display: flex;
@@ -216,11 +239,15 @@
     width: 100%;
     padding: 0.5rem 0 0 15%;
   }
+  .about__container {
+    width: 40%;
+  }
   .about__container-cards {
-    width: 17%;
+    width: 100%;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
+    gap: 1em;
   }
   .section__about-cards {
     text-align: center;
@@ -228,9 +255,11 @@
   .about__container-cardsSecond {
     display: flex;
     flex-direction: column;
+    gap: 2em;
+    margin-top: 25%;
   }
   .section__about-cards2 {
-    width: 50%;
+    width: 100%;
   }
   .section_image-slide {
     width: 50%;
@@ -248,12 +277,13 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    gap: 14rem;
+    gap: 5rem;
   }
   .about__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2em;
+    margin-top: 5%;
   }
   .gallery-home {
     display: flex;

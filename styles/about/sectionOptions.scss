@@ -4,13 +4,9 @@
     align-items: center;
     padding: 1.7rem;
 
-    .section_video {
-       
-        // width: 95%;
-        // height: 40vh;
-        // margin-top: 15%;
-      
-    }
+  .video{
+    width: 100%;
+  }
 
     .section_text {
         margin-top: 5%;
@@ -44,7 +40,53 @@
     position: relative;
     margin: auto;
 }
+.section_image-burguer{
+    width: 50%;
+    height: 75vh;
+}
 
+//animation
+.heartbeat {
+    /* Estilos iniciales sin animación */
+    transform: scale(1);
+    transform-origin: center center;
+    animation: none; /* Evita que la animación se reproduzca automáticamente */
+  
+    /* Aplica la animación al pasar el mouse */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .heartbeat:hover {
+    /* Establece los estilos de animación al pasar el mouse */
+    animation: heartbeat 1.5s ease-in-out infinite both;
+  }
+  
+  @keyframes heartbeat {
+    /* Definición de la animación */
+    from {
+      transform: scale(1);
+      transform-origin: center center;
+      animation-timing-function: ease-out;
+    }
+    10% {
+      transform: scale(0.91);
+      animation-timing-function: ease-in;
+    }
+    17% {
+      transform: scale(0.98);
+      animation-timing-function: ease-out;
+    }
+    33% {
+      transform: scale(0.87);
+      animation-timing-function: ease-in;
+    }
+    45% {
+      transform: scale(1);
+      animation-timing-function: ease-out;
+    }
+  }
+  
+  
 
 @media only screen and (min-width: 1000px) {
     .section_options {
@@ -65,5 +107,9 @@
     }
     .section__text-button{
         margin-left: 0%;
+    }
+    .section_image-burguer{
+        width: 50%;
+        height: 75vh;
     }
 }

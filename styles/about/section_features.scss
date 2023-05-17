@@ -1,14 +1,13 @@
 .section_features {
     background-color: #222222;
-    padding: 5%;
     height: 108vh;
 
     .core-features__section {
         background: #292929;
         width: 95%;
         height: 40vh;
-        max-width: 600px;
-        padding: 5%;
+       
+      
     }
 
     .core-features_number {
@@ -28,7 +27,7 @@
         .cards__features{
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            grid-gap: 10px;
+            grid-gap: 40px;
         }
         .swiper-button-next,
         .swiper-button-prev{

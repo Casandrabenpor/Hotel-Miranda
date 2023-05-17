@@ -1,7 +1,7 @@
 .section__title-home {
     // background: #333333;
     background-image: url(../../assets/hotel/hotel.jpg);
-    
+
 }
 
 .subtitle-home {
@@ -138,11 +138,12 @@
 }
 
 //MENU SLIDER
-.menu__grid{
+.menu__grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-left: 9%;
 }
+
 .menu__slider {
     display: flex;
     flex-direction: row;
@@ -158,10 +159,12 @@
 
     }
 }
-.menu{
+
+.menu {
     display: flex;
     flex-direction: row;
 }
+
 .menu__button {
     display: flex;
     flex-direction: row;
@@ -195,10 +198,40 @@
 
     }
 }
-.gallery-home{
+
+.gallery-home {
     display: flex;
     flex-direction: column;
 }
+//animation
+
+.rotate-center {
+    /* Estilos iniciales sin animación */
+    transform: rotate(0);
+    opacity: 1;
+    
+    /* Aplica la animación al pasar el mouse */
+    transition: transform 0.6s ease-out;
+  }
+  
+  .rotate-center:hover {
+    /* Establece los estilos de animación al pasar el mouse */
+    animation: rotate-center-animation 0.8s infinite;
+  }
+  
+  @keyframes rotate-center-animation {
+    /* Definición de la animación */
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  
+  
 
 @media only screen and (min-width: 1000px) {
     .title-index {
@@ -237,11 +270,16 @@
 
     }
 
+    .about__container {
+        width: 40%;
+    }
+
     .about__container-cards {
-        width: 17%;
+        width: 100%;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
+        gap: 1em;
     }
 
     .section__about-cards {
@@ -252,11 +290,14 @@
     .about__container-cardsSecond {
         display: flex;
         flex-direction: column;
-      
+        gap: 2em;
+        margin-top: 25%;
+
     }
 
     .section__about-cards2 {
-        width: 50%;
+        width: 100%;
+        
     }
 
     .section_image-slide {
@@ -272,19 +313,23 @@
     .text__video-paragraph {
         width: 42%;
     }
+
     //cards text
-    .home__cards-txt{
+    .home__cards-txt {
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
-        gap: 14rem;
+        gap: 5rem;
     }
-    .about__grid{
+
+    .about__grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 2em;
+        margin-top: 5%;
     }
-    .gallery-home{
+
+    .gallery-home {
         display: flex;
         flex-direction: row;
     }
@@ -318,7 +363,8 @@
             justify-content: space-around;
         }
     }
-    .swiper-slide{
+
+    .swiper-slide {
         flex-shrink: unset;
     }
 

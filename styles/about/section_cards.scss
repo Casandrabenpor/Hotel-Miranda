@@ -8,6 +8,9 @@
   padding: 2rem;
 
 }
+.image__counter{
+  width: 100%;
+}
 
 @media only screen and (min-width: 1000px) {
   #section_some_fun {
@@ -28,6 +31,7 @@
   .section_image-flex{
     display: flex;
     flex-direction: row;
+    width: 150%;
     gap: 2em;
   }
 }
