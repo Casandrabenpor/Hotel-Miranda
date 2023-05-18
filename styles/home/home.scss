@@ -164,9 +164,9 @@ iframe{
     margin-left: 9%;
 }
 
-.menu__slider {
+.menu__item {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 2em;
     align-items: center;
     margin-top: 5%;
@@ -256,9 +256,12 @@ iframe{
 // .not-swiper {
 //   display: none;
 // }
-// .not-swiper-home {
-//   display: none;
-// }
+.not-swiper-features {
+  display: none;
+}
+.not-swiper-gallery{
+    display: none;
+}
 // .not-swiper-gallery-features{
 //     display: none;
 // }
@@ -451,10 +454,11 @@ iframe{
 
     }
     
+    
     //prueba test 
-//     .swiper {
-//     display: none;
-//   }
+    .dynamic-swiper {
+    display: none;
+  }
 //   .not-swiper {
 //       display: flex;
 //     flex-direction: row;
@@ -480,6 +484,13 @@ iframe{
 //         }
 //     }
 
+.not-swiper-features{
+    display: flex;
+    margin-left: 3%;
+}
+.not-swiper-gallery{
+    display: grid;
+}
 // .not-swiper-gallery-features{
 //     display: grid;
 // }

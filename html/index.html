@@ -108,9 +108,9 @@
                 <p class="small__title-homeSecond text-gray-color">Rooms</p>
                 <h2 class="big__title-home text-black">Hand Picked Rooms</h2>
             </div>
-            <div class="swiper-galleryHotel gallery-home">
+            <div class="swiper swiper-custom-button gallery-home">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide  section__gallery-home">
+                    <div class="swiper-slide section__gallery-home">
                         <img src="../assets/hotel/bed1.jpg" alt="room" class="section_image-slide" />
                         <div class="section_button-rooms-home ">
                             <img src="../assets/section rooms/room-button.png" alt="button rooms" />
@@ -156,7 +156,7 @@
                             <div class="section__gallery-text">
                                 <p class="text__room-price-home text-gray ">$345/Night</p>
                             </div>
-                        </div>  
+                        </div>
                     </div>
                 </div>
                 <div class="swiper-button-next"></div>
@@ -180,21 +180,21 @@
                 </p>
                 <button type="button" class="section__text-button text_button ">BOOK NOW</button>
             </div>
-           
+
             <div>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Bu3Doe45lcU?start=25&end=75"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
             </div>
-         
+
         </div>
         <div>
             <p class="small__title-homeSecond text-gray-color">Facilities</p>
             <h2 class="big__title-home text-black text-center">Core Features</h2>
 
 
-            <div class="swiper swiper-gallery">
+            <div class="swiper swiper-custom-pagination dynamic-swiper">
                 <div class="swiper-wrapper section__gallery-features">
                     <div class="swiper-slide section__gallery">
                         <img src="../assets/home/01.png" class="position__number" alt="number" />
@@ -267,7 +267,78 @@
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
-            <!-- </div> -->
+
+            <div class="not-swiper-gallery section__gallery-features">
+                <div class="swiper-slide section__gallery">
+                    <img src="../assets/home/01.png" class="position__number" alt="number" />
+                    <img src="../assets/section/stars.png" class="position__icon rotate-center" alt="star" />
+                    <div>
+                        <h4 class="text-core-features__pretitle text-black position__pretitle">Have High Rating</h4>
+                        <p class="text-core-features__paragraph text-gray-color">Lorem ipsum dolor sit amet,
+                            consectetur
+                            adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+                </div>
+                <div class="swiper-slide section__gallery">
+                    <img src="../assets/home/02.png" class="position__number" alt="number" />
+                    <img src="../assets/section/bruj.png" class="position__icon rotate-center" alt="star" />
+                    <div>
+                        <h4 class="text-core-features__pretitle text-black position__pretitle">Have High Rating</h4>
+                        <p class="text-core-features__paragraph text-gray-color">Lorem ipsum dolor sit amet,
+                            consectetur
+                            adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+
+                    </div>
+
+                </div>
+                <div class="swiper-slide section__gallery">
+                    <img src="../assets/home/03.png" class="position__number" alt="number" />
+                    <img src="../assets/section/map.png" class="position__icon rotate-center" alt="star" />
+                    <div>
+                        <h4 class="text-core-features__pretitle text-black position__pretitle">Have High Rating</h4>
+                        <p class="text-core-features__paragraph text-gray-color">Lorem ipsum dolor sit amet,
+                            consectetur
+                            adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+                </div>
+                <div class="swiper-slide section__gallery">
+                    <img src="../assets/home/04.png" class="position__number" alt="number" />
+                    <img src="../assets/section/clock.png" class="position__icon rotate-center" alt="star" />
+                    <div>
+                        <h4 class="text-core-features__pretitle text-black position__pretitle">Have High Rating</h4>
+                        <p class="text-core-features__paragraph text-gray-color">Lorem ipsum dolor sit amet,
+                            consectetur
+                            adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+                </div>
+                <div class="swiper-slide section__gallery">
+                    <img src="../assets/home/05.png" class="position__number" alt="number" />
+                    <img src="../assets/section/card.png" class="position__icon rotate-center" alt="star" />
+                    <div>
+                        <h4 class="text-core-features__pretitle text-black position__pretitle">Have High Rating</h4>
+                        <p class="text-core-features__paragraph text-gray-color">Lorem ipsum dolor sit amet,
+                            consectetur
+                            adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+                </div>
+                <div class="swiper-slide section__gallery">
+                    <img src="../assets/home/06.png" class="position__number" alt="number" />
+                    <img src="../assets/section/Group (3).png" class="position__icon rotate-center" alt="star" />
+                    <div>
+                        <h4 class="text-core-features__pretitle text-black position__pretitle">Have High Rating</h4>
+                        <p class="text-core-features__paragraph text-gray-color">Lorem ipsum dolor sit amet,
+                            consectetur
+                            adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
     <!-- SECTION MENU -->
@@ -279,68 +350,174 @@
             <h2 class="big__title-home-menu  text-black">Our Foods Menu</h2>
 
         </div>
-        <div class="menu__grid">
-            <div class="menu__slider">
-                <img src="../assets/menu-home/egg.jpg" alt="eggs" />
-                <div class="menu__slider-text">
-                    <h4 class="menu__food-text">Eggs & Bacon</h4>
-                    <p class="menu__food-data">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod
-                        tempor.</p>
+        <div class="swiper swiper-custom-button">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide ">
+                    <div class="menu__item">
+                        <img src="../assets/menu-home/egg.jpg" alt="eggs" />
+                        <div class="menu__slider-text">
+                            <h4 class="menu__food-text">Eggs & Bacon</h4>
+                            <p class="menu__food-data">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
+                                eiusmod
+                                tempor.</p>
+                        </div>
+                    </div>
+                    <div class="menu__item">
+                        <img src="../assets/menu-home/coffe.jpg" alt="coffe" />
+                        <div class="menu__slider-text">
+                            <h4 class="menu__food-text">Eggs & Bacon</h4>
+                            <p class="menu__food-data">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
+                                eiusmod
+                                tempor.</p>
+                        </div>
+                    </div>
+                    <div class="menu__item">
+                        <img src="../assets/menu-home/coffe.jpg" alt="coffe" />
+                        <div class="menu__slider-text">
+                            <h4 class="menu__food-text">Eggs & Bacon</h4>
+                            <p class="menu__food-data">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
+                                eiusmod
+                                tempor.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="menu__slider">
-                <img src="../assets/menu-home/coffe.jpg" alt="coffe" />
-                <div class="menu__slider-text">
-                    <h4 class="menu__food-text">Eggs & Bacon</h4>
-                    <p class="menu__food-data">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod
-                        tempor.</p>
+            
+                <div class="swiper-slide">
+                    <div class="menu__item">
+                        <img src="../assets/menu-home/coffe.jpg" alt="coffe" />
+                        <div class="menu__slider-text">
+                            <h4 class="menu__food-text">Eggs & Bacon</h4>
+                            <p class="menu__food-data">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
+                                eiusmod
+                                tempor.</p>
+                        </div>
+                    </div>
+                    <div class="menu__item">
+            
+                        <img src="../assets/menu-home/coffe.jpg" alt="coffe" />
+                        <div class="menu__slider-text">
+                            <h4 class="menu__food-text">Eggs & Bacon</h4>
+                            <p class="menu__food-data">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
+                                eiusmod
+                                tempor.</p>
+                        </div>
+                    </div>
+                    <div class="menu__item">
+                        <img src="../assets/menu-home/coffe.jpg" alt="coffe" />
+                        <div class="menu__slider-text">
+                            <h4 class="menu__food-text">Eggs & Bacon</h4>
+                            <p class="menu__food-data">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
+                                eiusmod
+                                tempor.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="menu__slider">
-                <img src="../assets/menu-home/chia.jpg" alt="chia" />
-                <div class="menu__slider-text">
-                    <h4 class="menu__food-text">Eggs & Bacon</h4>
-                    <p class="menu__food-data">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod
-                        tempor.</p>
+                <div class="swiper-slide ">
+                    <div class="menu__item">
+                        <img src="../assets/menu-home/egg.jpg" alt="eggs" />
+                        <div class="menu__slider-text">
+                            <h4 class="menu__food-text">Eggs & Bacon</h4>
+                            <p class="menu__food-data">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
+                                eiusmod
+                                tempor.</p>
+                        </div>
+                    </div>
+                    <div class="menu__item">
+                        <img src="../assets/menu-home/coffe.jpg" alt="coffe" />
+                        <div class="menu__slider-text">
+                            <h4 class="menu__food-text">Eggs & Bacon</h4>
+                            <p class="menu__food-data">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
+                                eiusmod
+                                tempor.</p>
+                        </div>
+                    </div>
+                    <div class="menu__item">
+                        <img src="../assets/menu-home/coffe.jpg" alt="coffe" />
+                        <div class="menu__slider-text">
+                            <h4 class="menu__food-text">Eggs & Bacon</h4>
+                            <p class="menu__food-data">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
+                                eiusmod
+                                tempor.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            
+                <div class="swiper-slide">
+                    <div class="menu__item">
+                        <img src="../assets/menu-home/coffe.jpg" alt="coffe" />
+                        <div class="menu__slider-text">
+                            <h4 class="menu__food-text">Eggs & Bacon</h4>
+                            <p class="menu__food-data">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
+                                eiusmod
+                                tempor.</p>
+                        </div>
+                    </div>
+                    <div class="menu__item">
+            
+                        <img src="../assets/menu-home/coffe.jpg" alt="coffe" />
+                        <div class="menu__slider-text">
+                            <h4 class="menu__food-text">Eggs & Bacon</h4>
+                            <p class="menu__food-data">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
+                                eiusmod
+                                tempor.</p>
+                        </div>
+                    </div>
+                    <div class="menu__item">
+                        <img src="../assets/menu-home/coffe.jpg" alt="coffe" />
+                        <div class="menu__slider-text">
+                            <h4 class="menu__food-text">Eggs & Bacon</h4>
+                            <p class="menu__food-data">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
+                                eiusmod
+                                tempor.</p>
+                        </div>
+                    </div>
+                </div>
 
-
-            <div class="menu__slider">
-                <img src="../assets/menu-home/egg.jpg" alt="eggs" />
-                <div class="menu__slider-text">
-                    <h4 class="menu__food-text">Eggs & Bacon</h4>
-                    <p class="menu__food-data">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod
-                        tempor.</p>
+                <div class="swiper-slide ">
+                    <div class="menu__item">
+                        <img src="../assets/menu-home/egg.jpg" alt="eggs" />
+                        <div class="menu__slider-text">
+                            <h4 class="menu__food-text">Eggs & Bacon</h4>
+                            <p class="menu__food-data">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
+                                eiusmod
+                                tempor.</p>
+                        </div>
+                    </div>
+                    <div class="menu__item">
+                        <img src="../assets/menu-home/coffe.jpg" alt="coffe" />
+                        <div class="menu__slider-text">
+                            <h4 class="menu__food-text">Eggs & Bacon</h4>
+                            <p class="menu__food-data">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
+                                eiusmod
+                                tempor.</p>
+                        </div>
+                    </div>
+                    <div class="menu__item">
+                        <img src="../assets/menu-home/coffe.jpg" alt="coffe" />
+                        <div class="menu__slider-text">
+                            <h4 class="menu__food-text">Eggs & Bacon</h4>
+                            <p class="menu__food-data">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
+                                eiusmod
+                                tempor.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="menu__slider">
-                <img src="../assets/menu-home/egg.jpg" alt="eggs" />
-                <div class="menu__slider-text">
-                    <h4 class="menu__food-text">Eggs & Bacon</h4>
-                    <p class="menu__food-data">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod
-                        tempor.</p>
-                </div>
-            </div>
-            <div class="menu__slider">
-                <img src="../assets/menu-home/egg.jpg" alt="eggs" />
-                <div class="menu__slider-text">
-                    <h4 class="menu__food-text">Eggs & Bacon</h4>
-                    <p class="menu__food-data">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod
-                        tempor.</p>
-                </div>
-            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        
         </div>
-        <div class="menu__button">
+
+
+        <!-- <div class="menu__button">
             <button>
                 <img src="../assets/section rooms/arrow-white.png" alt="arrow" />
             </button>
             <button>
                 <img src="../assets/section rooms/arrow-brown (1).png" alt="arrow" />
             </button>
-        </div>
-        <div class="swiper swiper-features">
+        </div> -->
+        <div class="swiper swiper-custom-pagination dynamic-swiper">
             <div class="swiper-wrapper menu">
                 <div class="swiper-slide">
                     <img src="../assets/hotel/menu1.jpg" class=" section_image" alt="bread" />
@@ -354,6 +531,18 @@
                 <div class="swiper-pagination"></div>
             </div>
         </div>
+        <div class="not-swiper-features">
+            <div class="swiper-slide">
+                <img src="../assets/hotel/menu1.jpg" class=" section_image" alt="bread" />
+            </div>
+            <div class="swiper-slide">
+                <img src="../assets/hotel/menu2.jpg" class=" section_image" alt="ravioli" />
+            </div>
+            <div class="swiper-slide">
+                <img src="../assets/hotel/menu3.jpg" class=" section_image" alt="crepes" />
+            </div>
+        </div>
+
         <div class="background__icons">
             <div class="icons">
                 <div class="background__icons-position">
@@ -431,12 +620,8 @@
         </div>
 
     </footer>
-
     <script src="../scripts/burger-nav.js"></script>
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-   
-
     <script src="../scripts/slide.js"></script>
 </body>
 

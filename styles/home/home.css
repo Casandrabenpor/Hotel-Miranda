@@ -162,15 +162,15 @@ iframe {
   margin-left: 9%;
 }
 
-.menu__slider {
+.menu__item {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 2em;
   align-items: center;
   margin-top: 5%;
   margin-left: 1.5rem;
 }
-.menu__slider img {
+.menu__item img {
   height: 120px;
   width: 120px;
   -o-object-fit: cover;
@@ -239,6 +239,14 @@ iframe {
     transform: rotate(360deg);
   }
 }
+.not-swiper-features {
+  display: none;
+}
+
+.not-swiper-gallery {
+  display: none;
+}
+
 @media only screen and (min-width: 1000px) {
   .button-home {
     display: flex;
@@ -356,5 +364,15 @@ iframe {
     left: 0;
     width: 12%;
     height: 20vh;
+  }
+  .dynamic-swiper {
+    display: none;
+  }
+  .not-swiper-features {
+    display: flex;
+    margin-left: 3%;
+  }
+  .not-swiper-gallery {
+    display: grid;
   }
 }/*# sourceMappingURL=home.css.map */
