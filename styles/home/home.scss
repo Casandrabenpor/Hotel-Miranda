@@ -1,19 +1,16 @@
 .section__title-home {
-    // background: #333333;
-    background-image: url(../../assets/hotel/hotel.jpg);
-
+    background: #333333;
+    // background-image: url(../../assets/hotel/hotel.jpg);
+padding: 2rem;
 }
 
 .subtitle-home {
     display: none;
-
-
-
 }
 
 .button-home {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 2em;
     margin-left: 19%;
     margin-top: -2%;
@@ -26,6 +23,7 @@
     display: flex;
     flex-direction: column;
     padding-top: 5%;
+    padding: 2rem;
 
     input {
         font-family: "Roboto";
@@ -38,7 +36,9 @@
         background-color: #222222;
         margin-top: 1rem;
         margin-left: 2%;
-
+        width: 100%;
+        flex-direction: row-reverse;
+        gap: 1em;
     }
 }
 
@@ -54,7 +54,23 @@
     margin: auto;
     margin-top: 10%;
 }
-
+ .about__grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20%;
+ }
+ .about__container-cardsSecond {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+ }
+.img_about{
+    width: 70%;
+    height: 35vh;
+}
 .section__about-cards {
     margin-top: 15%;
 }
@@ -124,6 +140,10 @@
     width: 30%;
     height: 20vh;
     top: 2rem;
+}
+iframe{
+    width: 100%;
+    margin-top: 5%;
 }
 
 // section menu
@@ -203,37 +223,83 @@
     display: flex;
     flex-direction: column;
 }
+
 //animation
 
 .rotate-center {
     /* Estilos iniciales sin animación */
     transform: rotate(0);
     opacity: 1;
-    
+
     /* Aplica la animación al pasar el mouse */
     transition: transform 0.6s ease-out;
-  }
-  
-  .rotate-center:hover {
+}
+
+.rotate-center:hover {
     /* Establece los estilos de animación al pasar el mouse */
     animation: rotate-center-animation 0.8s infinite;
-  }
-  
-  @keyframes rotate-center-animation {
+}
+
+@keyframes rotate-center-animation {
+
     /* Definición de la animación */
     0% {
-      transform: rotate(0);
+        transform: rotate(0);
     }
+
     100% {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
-  
-  
-  
-  
+}
+
+//prueba test
+// .not-swiper {
+//   display: none;
+// }
+// .not-swiper-home {
+//   display: none;
+// }
+// .not-swiper-gallery-features{
+//     display: none;
+// }
+// .swiper {
+//   width: 380px;
+//   height: 380px;
+//   margin-top: 60px;
+//   margin-bottom: 90px;
+// }
+// .swiper-slide {
+//   background-size: cover;
+//   background-position: 50%;
+//   width: 335px;
+//   height: 335px;
+//   min-height: 20vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   flex-direction: column;
+// }
+// .swiper-pagination-bullet {
+//   background: darkblue;
+// }
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width: 1000px) {
+    .button-home {
+        display: flex;
+        flex-direction: row;
+    }
+
     .title-index {
         display: flex;
         flex-direction: column;
@@ -264,7 +330,7 @@
     .subtitle-home {
         background-color: #222222;
         display: inline-block;
-        height: 6em;
+        height: 2em;
         width: 100%;
         padding: 0.5rem 0 0 15%;
 
@@ -297,7 +363,7 @@
 
     .section__about-cards2 {
         width: 100%;
-        
+
     }
 
     .section_image-slide {
@@ -313,6 +379,12 @@
     .text__video-paragraph {
         width: 42%;
     }
+
+    // .menu{
+    //     width: 75%;
+    //     height: 40vh;
+    //     margin: 12rem;
+    // }
 
     //cards text
     .home__cards-txt {
@@ -364,7 +436,7 @@
         }
     }
 
-    .swiper-slide {
+    .swiper-slide:not(.section__gallery-home) {
         flex-shrink: unset;
     }
 
@@ -378,5 +450,37 @@
         height: 20vh;
 
     }
+    
+    //prueba test 
+//     .swiper {
+//     display: none;
+//   }
+//   .not-swiper {
+//       display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     gap: 30px;
+//     margin-top: 90px;
+//     margin-bottom: 120px;
+//     & img {
+//       width: 470px;
+//       height: 300px;
+//     }
+//   }
+//   .not-swiper-home {
+//       display: flex;
+//       flex-direction: row;
+//       justify-content: center;
+//       gap: 3em;
+//       margin-top: 90px;
+//       margin-bottom: 120px;
+//       & img {
+//           width: 370px;
+//           height: 370px;
+//         }
+//     }
 
-}
+// .not-swiper-gallery-features{
+//     display: grid;
+// }
+ }

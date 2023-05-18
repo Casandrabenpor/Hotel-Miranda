@@ -93,6 +93,7 @@ header {
   .nav-link {
     list-style: none;
     z-index: 1;
+    display: inline-block;
   }
   .nav__burger {
     display: none;
@@ -103,5 +104,7 @@ header {
     height: auto;
     flex-direction: row;
     justify-content: space-evenly;
+    position: static;
+    background-color: transparent;
   }
 }/*# sourceMappingURL=nav.css.map */

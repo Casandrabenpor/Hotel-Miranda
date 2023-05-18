@@ -13,12 +13,27 @@
         max-width: 500px;
 
     }
+    .cards{
+      display: flex;
+      flex-direction: column;
+    }
 
     .section_cards {
         margin-top: 5%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     
+       
+    }
+    .section_cards :hover {
+      background-color: #BEAD8E;
+     
+      // filter: brightness(155%) sepia(1);
+      
+    }
+    .icon-about{
+      filter: invert(0.45) sepia(1);
     }
 
     .card__none {
@@ -32,6 +47,7 @@
 
 }
 
+
 .section_image {
     background: #DADADA;
     width: 95%;
@@ -41,7 +57,7 @@
     margin: auto;
 }
 .section_image-burguer{
-    width: 50%;
+    width: 100%;
     height: 75vh;
 }
 
@@ -89,11 +105,28 @@
   
 
 @media only screen and (min-width: 1000px) {
+ 
     .section_options {
+      .video{
+        width: 215%;
+        height: 40vh;
+        margin-left: -65%;
+      }
+      .cards{
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
+        align-items: center;
+      }
         .section_cards {
            display: flex;
             align-items: center;
             margin-bottom: 10%;
+            flex-direction: column;
+            gap: 1rem;
+            img{
+              width: 4rem;
+            }
         }
 
         .card__none {

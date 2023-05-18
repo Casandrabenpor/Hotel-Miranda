@@ -1,6 +1,7 @@
 @charset "UTF-8";
 .section__title-home {
-  background-image: url(../../assets/hotel/hotel.jpg);
+  background: #333333;
+  padding: 2rem;
 }
 
 .subtitle-home {
@@ -9,7 +10,7 @@
 
 .button-home {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 2em;
   margin-left: 19%;
   margin-top: -2%;
@@ -22,6 +23,7 @@
   display: flex;
   flex-direction: column;
   padding-top: 5%;
+  padding: 2rem;
 }
 .section__calendar-home input {
   font-family: "Roboto";
@@ -34,6 +36,9 @@
   background-color: #222222;
   margin-top: 1rem;
   margin-left: 2%;
+  width: 100%;
+  flex-direction: row-reverse;
+  gap: 1em;
 }
 
 .home__about-container {
@@ -47,6 +52,26 @@
   max-width: 600px;
   margin: auto;
   margin-top: 10%;
+}
+
+.about__grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.about__container-cardsSecond {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.img_about {
+  width: 70%;
+  height: 35vh;
 }
 
 .section__about-cards {
@@ -115,6 +140,11 @@
   width: 30%;
   height: 20vh;
   top: 2rem;
+}
+
+iframe {
+  width: 100%;
+  margin-top: 5%;
 }
 
 .section__menu {
@@ -210,6 +240,10 @@
   }
 }
 @media only screen and (min-width: 1000px) {
+  .button-home {
+    display: flex;
+    flex-direction: row;
+  }
   .title-index {
     display: flex;
     flex-direction: column;
@@ -235,7 +269,7 @@
   .subtitle-home {
     background-color: #222222;
     display: inline-block;
-    height: 6em;
+    height: 2em;
     width: 100%;
     padding: 0.5rem 0 0 15%;
   }
@@ -312,7 +346,7 @@
     flex-direction: row;
     justify-content: space-around;
   }
-  .swiper-slide {
+  .swiper-slide:not(.section__gallery-home) {
     flex-shrink: unset;
   }
   .background__icons-position {

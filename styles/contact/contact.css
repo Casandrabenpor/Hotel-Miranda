@@ -1,5 +1,6 @@
 .section__contact {
-  width: 95%;
+  width: 65%;
+  margin-top: 5%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -61,6 +62,13 @@
   .section__contact {
     display: flex;
     flex-direction: row;
+  }
+  .enter_message {
+    padding: 2.5rem 5.2rem 13rem 5.2rem;
+  }
+  .enter_message-pen {
+    width: 1rem;
+    height: 1rem;
   }
   #contact__form {
     display: grid;

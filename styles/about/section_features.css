@@ -16,7 +16,12 @@
     height: 128vh;
   }
   .section_features .core-features__section {
-    margin-right: 2%;
+    width: 85%;
+    margin-left: 5%;
+  }
+  .section_features .core-features__section-icon {
+    margin-left: 5%;
+    width: 65%;
   }
   .section_features .cards__features {
     display: grid;

@@ -12,8 +12,8 @@
 
 <body>
     <!-- HEADER -->
-    <header class="nav__container-menu">
-        <div>
+    <header>
+        <div class="nav__container-menu">
             <button class="nav__burger"></button>
             <a href="./index.html">
                 <div class="nav__logo">
@@ -23,20 +23,18 @@
                     <img src="../assets/nav/Hotel Miranda.png" alt="Hote Miranda" />
                 </div>
             </a>
+
         </div>
-        <div>
-            <ul class="nav">
-                <li class="nav-link"><a href="./about.html">About Us</a></li>
-                <li class="nav-link"><a href="./rooms.html">Rooms</a></li>
-                <li class="nav-link"><a href="./offers.html">Offers</a></li>
-                <li class="nav-link"><a href="./contact.html">Contact</a></li>
-            </ul>
-        </div>
+        <ul class="nav">
+            <li class="nav-link"><a href="./about.html">About Us</a></li>
+            <li class="nav-link"><a href="./rooms.html">Rooms</a></li>
+            <li class="nav-link"><a href="./offers.html">Offers</a></li>
+            <li class="nav-link"><a href="./contact.html">Contact</a></li>
+        </ul>
         <div class="nav__icons">
             <img src="../assets/nav/human.png" alt="human icon" />
             <img src="../assets/nav/search.png" alt="search" />
         </div>
-
     </header>
     <!-- SECTION TITLE HOME -->
     <section class="section__title-home">
@@ -82,7 +80,7 @@
                 </div>
                 <div class="about__grid">
                     <div class="about__container-cards">
-                        <img src="../assets/hotel/timbre.jpg" width="300px" height="300px" alt="team" />
+                        <img src="../assets/hotel/timbre.jpg" class="img_about" alt="team" />
                         <div class="section__about-cards">
                             <img src="../assets/home/Group.png" alt="persons" />
                             <img src="../assets/home/team.png" alt="team person" />
@@ -94,7 +92,7 @@
                         </div>
                     </div>
                     <div class="about__container-cardsSecond">
-                        <img src="../assets/hotel/restaurant.jpg" width="300px" height="300px" alt="team" />
+                        <img src="../assets/hotel/restaurant.jpg" class="img_about" alt="team" />
                         <div class="section__about-cards2">
                             <img src="../assets/home/calendarHome.png" alt="calendar" />
                             <h4 class="text__about-cards text-white">Luxury Room</h4>
@@ -113,7 +111,7 @@
             <div class="swiper-galleryHotel gallery-home">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide  section__gallery-home">
-                        <img src="../assets/hotel/bed.jpg" alt="room" class="section_image-slide" />
+                        <img src="../assets/hotel/bed1.jpg" alt="room" class="section_image-slide" />
                         <div class="section_button-rooms-home ">
                             <img src="../assets/section rooms/room-button.png" alt="button rooms" />
                         </div>
@@ -129,7 +127,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide section__gallery-home">
-                        <img src="../assets/hotel//montain.jpg" alt="room" class="section_image-slide" />
+                        <img src="../assets/hotel/montain.jpg" alt="room" class="section_image-slide" />
                         <div class="section_button-rooms-home ">
                             <img src="../assets/section rooms/room-button.png" alt="button rooms" />
                         </div>
@@ -145,7 +143,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide section__gallery-home">
-                        <img src="../assets/hotel/duplex.jpg" alt="room" class="section_image-slide" />
+                        <img src="../assets/hotel/bed10.jpg" alt="room" class="section_image-slide" />
                         <div class="section_button-rooms-home ">
                             <img src="../assets/section rooms/room-button.png" alt="button rooms" />
                         </div>
@@ -158,10 +156,11 @@
                             <div class="section__gallery-text">
                                 <p class="text__room-price-home text-gray ">$345/Night</p>
                             </div>
-                        </div>
+                        </div>  
                     </div>
                 </div>
-                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
 
 
@@ -436,6 +435,8 @@
     <script src="../scripts/burger-nav.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+   
+
     <script src="../scripts/slide.js"></script>
 </body>
 

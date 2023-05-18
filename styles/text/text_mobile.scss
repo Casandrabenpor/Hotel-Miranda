@@ -7,6 +7,7 @@
 .title__header {
     top: 18%;
     position: relative;
+    margin-left: 1rem;
 }
 
 .section__text-calendar {
@@ -89,6 +90,16 @@
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
+
+}
+
+.text-icon-about {
+    font-family: "Archivo";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 2.4000000953674316px;
+
 
 }
 
@@ -399,12 +410,12 @@ h5 {
     letter-spacing: 0px;
     color: #BDBDBD;
     margin-top: 5%;
-    
-        a{
-            color: #BDBDBD;
-            border-bottom:  none;
-        }
-    
+
+    a {
+        color: #BDBDBD;
+        border-bottom: none;
+    }
+
 }
 
 //OFFERS
@@ -520,7 +531,8 @@ h5 {
     line-height: 24px;
     letter-spacing: 0px;
     margin-top: 10%;
-    max-width: 600px;
+    max-width: 700px;
+    padding: 1rem;
 }
 
 .text__title-amenieties {
