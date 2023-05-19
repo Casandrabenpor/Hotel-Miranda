@@ -294,13 +294,14 @@ iframe{
         height: 20vh;
         text-align: left;
         align-items: center;
-        gap: 5em;
+        gap: 9em;
         justify-content: center;
+        input {
+            width: 200%;
+        }
     }
 
-    input {
-        width: 158%;
-    }
+ 
 
     .section__calendar-date {
         display: flex;
