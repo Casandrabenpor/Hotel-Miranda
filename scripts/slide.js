@@ -100,7 +100,7 @@ let swiperPagination = new Swiper(".swiper-custom-pagination", {
 
 let swiperButton = new Swiper(".swiper-custom-button", {
     loop: true,
-    slidesPerView: 2,
+    slidesPerView: 1,
     spacesBetween: 20,
     navigation: {
         nextEl: ".swiper-button-next",
@@ -108,7 +108,7 @@ let swiperButton = new Swiper(".swiper-custom-button", {
       },
     breakpoints: {
         1000: {
-          slidesPerView: 2,
+          slidesPerView: 1,
           spaceBetween: 100,
         },
       },

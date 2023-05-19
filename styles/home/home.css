@@ -252,6 +252,9 @@ iframe {
     display: flex;
     flex-direction: row;
   }
+  .section__title-home {
+    padding: 0;
+  }
   .title-index {
     display: flex;
     flex-direction: column;
@@ -297,11 +300,8 @@ iframe {
   .about__container-cardsSecond {
     display: flex;
     flex-direction: column;
-    gap: 2em;
     margin-top: 25%;
-  }
-  .section__about-cards2 {
-    width: 100%;
+    gap: 2em;
   }
   .section_image-slide {
     width: 50%;
@@ -324,7 +324,6 @@ iframe {
   .about__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 2em;
     margin-top: 5%;
   }
   .gallery-home {

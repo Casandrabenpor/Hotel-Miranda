@@ -1,7 +1,7 @@
 .section__title-home {
     background: #333333;
     // background-image: url(../../assets/hotel/hotel.jpg);
-padding: 2rem;
+    padding: 2rem;
 }
 
 .subtitle-home {
@@ -252,39 +252,13 @@ iframe{
     }
 }
 
-//prueba test
-// .not-swiper {
-//   display: none;
-// }
+
 .not-swiper-features {
   display: none;
 }
 .not-swiper-gallery{
     display: none;
 }
-// .not-swiper-gallery-features{
-//     display: none;
-// }
-// .swiper {
-//   width: 380px;
-//   height: 380px;
-//   margin-top: 60px;
-//   margin-bottom: 90px;
-// }
-// .swiper-slide {
-//   background-size: cover;
-//   background-position: 50%;
-//   width: 335px;
-//   height: 335px;
-//   min-height: 20vh;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   flex-direction: column;
-// }
-// .swiper-pagination-bullet {
-//   background: darkblue;
-// }
 
 
 
@@ -301,6 +275,10 @@ iframe{
     .button-home {
         display: flex;
         flex-direction: row;
+    }
+   
+    .section__title-home {
+        padding: 0;
     }
 
     .title-index {
@@ -359,15 +337,11 @@ iframe{
     .about__container-cardsSecond {
         display: flex;
         flex-direction: column;
-        gap: 2em;
         margin-top: 25%;
+        gap: 2em;
 
     }
 
-    .section__about-cards2 {
-        width: 100%;
-
-    }
 
     .section_image-slide {
         width: 50%;
@@ -383,11 +357,7 @@ iframe{
         width: 42%;
     }
 
-    // .menu{
-    //     width: 75%;
-    //     height: 40vh;
-    //     margin: 12rem;
-    // }
+
 
     //cards text
     .home__cards-txt {
@@ -400,7 +370,6 @@ iframe{
     .about__grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 2em;
         margin-top: 5%;
     }
 
@@ -459,30 +428,6 @@ iframe{
     .dynamic-swiper {
     display: none;
   }
-//   .not-swiper {
-//       display: flex;
-//     flex-direction: row;
-//     justify-content: center;
-//     gap: 30px;
-//     margin-top: 90px;
-//     margin-bottom: 120px;
-//     & img {
-//       width: 470px;
-//       height: 300px;
-//     }
-//   }
-//   .not-swiper-home {
-//       display: flex;
-//       flex-direction: row;
-//       justify-content: center;
-//       gap: 3em;
-//       margin-top: 90px;
-//       margin-bottom: 120px;
-//       & img {
-//           width: 370px;
-//           height: 370px;
-//         }
-//     }
 
 .not-swiper-features{
     display: flex;
@@ -491,7 +436,5 @@ iframe{
 .not-swiper-gallery{
     display: grid;
 }
-// .not-swiper-gallery-features{
-//     display: grid;
-// }
+
  }
