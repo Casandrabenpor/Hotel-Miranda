@@ -11,23 +11,24 @@ let swiperPagination = new Swiper(".swiper-custom-pagination", {
 let swiperButton = new Swiper(".swiper-custom-button", {
     loop: true,
     slidesPerView: 1,
-    spacesBetween: 20,
+    spacesBetween: 30,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
-    breakpoints: {
-        1000: {
-          slidesPerView: 1,
-          spaceBetween: 100,
-        },
-      },
   });
 
-// var swiper = new Swiper(".swiper-gallery", {
-//   loop: false,
-//   navigation: {
-//     nextEl: ".swiper-button-next",
-//     prevEl: ".swiper-button-prev",
-//   },
-// });
+  let swiperButtonTwoSlices = new Swiper(".swiper-custom-button-twice-sliced", {
+    loop: true,
+    slidesPerView: 1,
+    spacesBetween: 30,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints:{
+        1000:{
+          slidesPerView:2
+        }
+      }
+  });

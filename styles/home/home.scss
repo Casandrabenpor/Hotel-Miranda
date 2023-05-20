@@ -166,7 +166,7 @@ iframe{
 
 .menu__item {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 2em;
     align-items: center;
     margin-top: 5%;
@@ -410,8 +410,13 @@ iframe{
         }
     }
 
-    .swiper-slide:not(.section__gallery-home) {
+    .swiper-slide {
         flex-shrink: unset;
+    }
+    //Aplicamos valor 0 a los que queremos que tengan slider en ordenador
+    .section__gallery-home,
+    .menu-slide-gallery{
+        flex-shrink: 0;
     }
 
     .background__icons-position {
