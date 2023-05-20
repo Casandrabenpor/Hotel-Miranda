@@ -22,8 +22,16 @@
   flex-direction: column;
   align-items: center;
 }
-.section_options .section_cards :hover {
+.section_options .section_cards:hover {
   background-color: #BEAD8E;
+  color: white;
+}
+.section_options .section_cards:hover .text-black {
+  color: white;
+}
+.section_options .section_cards:hover img {
+  filter: brightness(155%) sepia(1);
+  background-color: rgba(226, 224, 135, 0);
 }
 .section_options .icon-about {
   filter: invert(0.45) sepia(1);
@@ -53,7 +61,8 @@
   /* Estilos iniciales sin animación */
   transform: scale(1);
   transform-origin: center center;
-  animation: none; /* Evita que la animación se reproduzca automáticamente */
+  animation: none;
+  /* Evita que la animación se reproduzca automáticamente */
   /* Aplica la animación al pasar el mouse */
   transition: transform 0.3s ease-in-out;
 }
