@@ -11,6 +11,24 @@
   margin-left: 50%;
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: white;
+  color: #111111;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-size: 10px;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: #BDAC8D;
+  color: white;
+}
+
 @media only screen and (min-width: 1000px) {
   .section_features {
     height: 128vh;
