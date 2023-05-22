@@ -1,5 +1,3 @@
-
-
 let swiperPagination = new Swiper(".swiper-custom-pagination", {
   loop: true,
   pagination: {
