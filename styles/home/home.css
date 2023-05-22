@@ -375,6 +375,9 @@ iframe {
   .not-swiper-features {
     display: flex;
     margin-left: 3%;
+    margin-top: 5%;
+    width: 70%;
+    margin: 12rem;
   }
   .not-swiper-gallery {
     display: grid;
