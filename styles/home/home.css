@@ -1,7 +1,8 @@
 @charset "UTF-8";
 .section__title-home {
-  background: #333333;
+  background-image: url(../../assets/hotel/portada.jpg);
   padding: 2rem;
+  background-size: 100% 100%;
 }
 
 .subtitle-home {
@@ -253,7 +254,7 @@
   .title-index {
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-left: 18%;
   }
   .section__calendar-home {
