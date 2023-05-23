@@ -54,23 +54,27 @@
     margin: auto;
     margin-top: 10%;
 }
- .about__grid {
+
+.about__grid {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     margin-top: 20%;
- }
- .about__container-cardsSecond {
+}
+
+.about__container-cardsSecond {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 10%;
- }
-.img_about{
+}
+
+.img_about {
     width: 70%;
     height: 35vh;
 }
+
 .section__about-cards {
     margin-top: 15%;
 }
@@ -141,10 +145,8 @@
     height: 20vh;
     top: 2rem;
 }
-iframe{
-    width: 100%;
-    margin-top: 5%;
-}
+
+
 
 // section menu
 .section__menu {
@@ -254,9 +256,10 @@ iframe{
 
 
 .not-swiper-features {
-  display: none;
+    display: none;
 }
-.not-swiper-gallery{
+
+.not-swiper-gallery {
     display: none;
 }
 
@@ -269,7 +272,7 @@ iframe{
         display: flex;
         flex-direction: row;
     }
-   
+
     .section__title-home {
         padding: 0;
     }
@@ -289,12 +292,13 @@ iframe{
         align-items: center;
         gap: 9em;
         justify-content: center;
+
         input {
             width: 200%;
         }
     }
 
- 
+
 
     .section__calendar-date {
         display: flex;
@@ -384,6 +388,13 @@ iframe{
         align-items: center;
     }
 
+    iframe {
+        width: 250%;
+        margin-top: 5%;
+        margin-left: -180%;
+        height: 40vh;
+    }
+
     //Features
     .section__gallery-features {
         display: grid;
@@ -406,9 +417,10 @@ iframe{
     .swiper-slide {
         flex-shrink: unset;
     }
+
     //Aplicamos valor 0 a los que queremos que tengan slider en ordenador
     .section__gallery-home,
-    .menu-slide-gallery{
+    .menu-slide-gallery {
         flex-shrink: 0;
     }
 
@@ -422,22 +434,23 @@ iframe{
         height: 20vh;
 
     }
-    
-    
+
+
     //prueba test 
     .dynamic-swiper {
-    display: none;
-  }
+        display: none;
+    }
 
-.not-swiper-features{
-    display: flex;
-    margin-left: 3%;
-    margin-top: 5%;
-    width: 70%;
-    margin: 12rem;
-}
-.not-swiper-gallery{
-    display: grid;
-}
+    .not-swiper-features {
+        display: flex;
+        margin-left: 3%;
+        margin-top: 5%;
+        width: 70%;
+        margin: 12rem;
+    }
 
- }
+    .not-swiper-gallery {
+        display: grid;
+    }
+
+}

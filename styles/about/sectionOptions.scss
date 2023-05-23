@@ -31,7 +31,8 @@
   .section_cards:hover {
     background-color: #BEAD8E;
     color: white;
-    .text-black{
+
+    .text-black {
       color: white;
     }
 
@@ -152,6 +153,10 @@
     .card__none {
       display: block;
     }
+  }
+
+  .image_restaurant {
+    object-fit: cover;
   }
 
   .restaurant-section {

@@ -121,6 +121,10 @@
   .section_options .card__none {
     display: block;
   }
+  .image_restaurant {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   .restaurant-section {
     display: flex;
     flex-direction: row;
