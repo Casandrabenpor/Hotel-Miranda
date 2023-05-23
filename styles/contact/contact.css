@@ -64,7 +64,8 @@
     flex-direction: row;
   }
   .enter_message {
-    padding: 2.5rem 5.2rem 13rem 5.2rem;
+    width: 933px;
+    height: 212px;
   }
   .enter_message-pen {
     width: 1rem;
