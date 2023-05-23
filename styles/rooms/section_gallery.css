@@ -34,6 +34,7 @@
     grid-gap: 20px;
     align-items: center;
     text-align: center;
+    margin-top: 5%;
   }
   .section__gallery-pagination {
     margin-top: 4rem;
