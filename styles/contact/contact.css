@@ -15,10 +15,6 @@
   justify-content: space-evenly;
   margin-top: 10%;
 }
-.section__contact .enter_message-pen {
-  width: 7%;
-  height: 2vh;
-}
 .section__contact .section__contact-number {
   position: absolute;
   z-index: -1;
@@ -33,6 +29,11 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+
+.enter_message-pen {
+  width: 5%;
+  height: 2vh;
 }
 
 .section__enter-contact {
