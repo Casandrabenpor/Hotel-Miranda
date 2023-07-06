@@ -19,7 +19,7 @@
 }
 
 .section_image-offers {
-  background: #DADADA;
+  background: #dadada;
   width: 95%;
   height: 100%;
   margin: auto;
@@ -33,13 +33,17 @@
   height: 40vh;
 }
 
+.section__gallery-offersRoom {
+  z-index: 1;
+}
+
 #bakground__popular {
   background: #222222;
   margin-top: 4%;
 }
 
 .card-white {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin-top: -14%;
   padding: 16%;
   width: 95%;
@@ -48,7 +52,7 @@
 
 @media only screen and (min-width: 1000px) {
   .section__gallery-luxury {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     display: flex;
     flex-direction: row;
     width: 50%;
@@ -57,7 +61,7 @@
     position: relative;
     top: -4rem;
     padding: 3em;
-    border-top: 6px solid #BEAD8E;
+    border-top: 6px solid #bead8e;
     margin-left: 20%;
   }
   .section__gallery-offers {
@@ -68,6 +72,14 @@
     height: 60vh;
     width: 60%;
     margin-left: 15%;
+  }
+  .section__gallery-offersRoom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -15%;
+    height: 60vh;
+    width: 60%;
   }
   .section__gallery-price {
     display: block;
