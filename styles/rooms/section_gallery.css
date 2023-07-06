@@ -3,23 +3,26 @@
 }
 
 .section__gallery {
+  display: none;
   flex-direction: column;
   align-items: center;
   padding: 1.7rem;
 }
-.section__gallery .section_image {
+
+.section_image {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.section__gallery .section_button-rooms {
+
+.section_button-rooms {
   display: flex;
   flex-direction: row;
   margin-top: -1.8rem;
   justify-content: flex-end;
   z-index: 1;
-  position: absolute;
 }
-.section__gallery .section__gallery-text {
+
+.section__gallery-text {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -41,14 +44,11 @@
 }
 
 .pageNumber:hover {
-  background-color: #BEAD8E;
+  background-color: #bead8e;
   color: white;
 }
 
 @media only screen and (min-width: 1000px) {
-  .section_button-rooms {
-    margin-left: 5%;
-  }
   #section__gallery-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -65,5 +65,6 @@
   .section__relatedRooms {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-top: 5%;
   }
 }/*# sourceMappingURL=section_gallery.css.map */

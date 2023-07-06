@@ -16,7 +16,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 15px;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 .section__amenities {
@@ -52,7 +52,7 @@
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  background: #D5D5D5;
+  background: #d5d5d5;
   position: relative;
   -o-object-fit: cover;
      object-fit: cover;
@@ -67,7 +67,20 @@
   height: 50vh;
 }
 
+.section_button-rooms-detail-btn {
+  position: absolute;
+}
+
 @media only screen and (min-width: 1000px) {
+  .section_button-rooms-detail-btn {
+    display: flex;
+    flex-direction: row;
+    margin-top: -1.8rem;
+    justify-content: flex-end;
+    z-index: 1;
+    position: absolute;
+    margin-left: 5%;
+  }
   .section__room {
     display: flex;
     flex-direction: row;

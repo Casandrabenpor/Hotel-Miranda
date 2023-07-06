@@ -32,7 +32,7 @@
   font-weight: 400;
   line-height: 16px;
   letter-spacing: 0px;
-  border-bottom: 2px solid #BEAD8E;
+  border-bottom: 2px solid #bead8e;
   color: #686868;
   background-color: #222222;
   margin-top: 1rem;
@@ -47,7 +47,7 @@
 }
 
 .section_image-home {
-  background: #DADADA;
+  background: #dadada;
   width: 70%;
   height: 40vh;
   max-width: 600px;
@@ -89,13 +89,13 @@
 }
 
 .section_image-slide {
-  background: #DADADA;
+  background: #dadada;
   width: 118%;
   height: 40vh;
 }
 
 .section__card-container {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin-top: -1rem;
 }
 
@@ -331,7 +331,7 @@
     flex-direction: row;
   }
   .video__container {
-    background: linear-gradient(90deg, #222222 70%, #BEAD8E 60%);
+    background: linear-gradient(90deg, #222222 70%, #bead8e 60%);
   }
   .video__container {
     display: flex;
