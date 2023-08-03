@@ -31,6 +31,12 @@
   gap: 2rem;
 }
 
+.section_contact-map {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
 .enter_message-pen {
   width: 5%;
   height: 2vh;
@@ -40,14 +46,14 @@
   margin-top: 2em;
   display: flex;
   flex-direction: row;
-  background: #F8F8F8;
+  background: #f8f8f8;
   padding: 1.5rem;
   margin-right: 9%;
   margin-left: 9%;
   gap: 1rem;
 }
 .section__enter-contact input {
-  background: #F8F8F8;
+  background: #f8f8f8;
   border: none;
   width: 100%;
 }
@@ -73,11 +79,10 @@
     height: 212px;
   }
   .enter_message-pen {
-    width: 2%;
+    width: 1%;
     height: 2vh;
   }
   #contact__form {
     display: grid;
-    grid-template-columns: 1fr 2fr;
   }
 }/*# sourceMappingURL=contact.css.map */
