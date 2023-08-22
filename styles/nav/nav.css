@@ -5,7 +5,7 @@ header {
   height: 70px;
   align-items: center;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.29);
-  background: #FFFFFF;
+  background: #ffffff;
   z-index: 2;
   position: fixed;
 }
@@ -65,7 +65,7 @@ header {
   height: 13px;
   border: none;
   cursor: pointer;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .nav__burger--close {
