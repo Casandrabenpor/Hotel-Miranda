@@ -1,7 +1,7 @@
 .section__text-button {
   width: 216px;
   height: 60px;
-  background: #BEAD8E;
+  background: #bead8e;
   margin-top: 5%;
   cursor: pointer;
   text-align: center;
@@ -11,7 +11,7 @@
 .section__text-button-home {
   width: 216px;
   height: 60px;
-  background: transparent;
+  background: #222222;
   margin-top: 5%;
   cursor: pointer;
   text-align: center;
@@ -20,7 +20,7 @@
 .section__text-button-homeCheck {
   width: 250px;
   height: 60px;
-  background: #BEAD8E;
+  background: #bead8e;
   margin-top: 5%;
   cursor: pointer;
   text-align: center;
@@ -30,7 +30,7 @@
 .section__text-button-offers {
   width: 216px;
   height: 60px;
-  background: #BEAD8E;
+  background: #bead8e;
   margin-top: 5%;
   cursor: pointer;
   text-align: center;
